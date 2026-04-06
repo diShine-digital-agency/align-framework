@@ -140,7 +140,7 @@ footer a{color:var(--link);text-decoration:none}
 <!-- progress bar -->
 <div class="progress-wrap">
   <div class="progress-bar"><div class="fill" id="progressFill"></div></div>
-  <div class="progress-label"><span id="progressText">Phase 1 of 5</span><span id="progressPct">0 %</span></div>
+  <div class="progress-label"><span id="progressText">Phase 1 of 5</span><span id="progressPct">0%</span></div>
 </div>
 
 <!-- phase navigation -->
@@ -529,7 +529,7 @@ footer a{color:var(--link);text-decoration:none}
   <p>Below is a full markdown export of everything you entered. Copy it, paste it into your own docs, or save it as a <code>.md</code> file.</p>
   <div class="actions" style="margin-top:.75rem;margin-bottom:.75rem">
     <button class="btn btn-primary" onclick="generateExport()">Generate report</button>
-    <button class="btn btn-outline" onclick="copyExport()">Copy to clipboard</button>
+    <button class="btn btn-outline" onclick="copyExport(event)">Copy to clipboard</button>
     <button class="btn btn-outline" onclick="downloadExport()">Download .md</button>
   </div>
   <div class="export-area">
@@ -581,7 +581,7 @@ document.querySelectorAll('.phase-nav button').forEach(b => {
 function updateProgress(){
   const pct = Math.round((Math.min(currentPhase,4)/4)*100);
   document.getElementById('progressFill').style.width = pct+'%';
-  document.getElementById('progressPct').textContent = pct+' %';
+  document.getElementById('progressPct').textContent = pct+'%';
   document.getElementById('progressText').textContent = currentPhase < 5
     ? 'Phase '+(currentPhase+1)+' of 5'
     : 'Export';
@@ -750,11 +750,11 @@ function generateExport(){
   document.getElementById('exportArea').value = md;
 }
 
-function copyExport(){
+function copyExport(e){
   const area = document.getElementById('exportArea');
   if(!area.value){ generateExport(); }
   navigator.clipboard.writeText(area.value).then(() => {
-    const btn = event.target;
+    const btn = e.currentTarget;
     const orig = btn.textContent;
     btn.textContent = 'Copied.';
     setTimeout(() => btn.textContent = orig, 1500);
