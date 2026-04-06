@@ -1,6 +1,6 @@
 # Phase 1: ASSESS — Narrative Coherence Scorecard
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 The first phase of the ALIGN Framework involves comprehensive mapping of your current narrative ecosystem across digital touchpoints. This assessment examines Narrative Consistency, Message Hierarchy, Emotional Resonance, and Competitive Differentiation.
 
@@ -82,7 +82,7 @@ Does your story carve out a unique position in the market, or do you sound exact
 
 ### Score Interpretation
 
-*   **80 - 100: Strategic Alignment.** Your narrative is a powerful asset driving revenue. Focus on Phase 5 (Navigate) to optimize and scale.
+*   **80 - 100: Strategic Alignment.** Your narrative is an effective asset driving revenue. Focus on Phase 5 (Navigate) to optimize and scale.
 *   **60 - 79: Tactical Fragmentation.** You have strong story elements, but they aren't connected strategically. Focus on Phase 3 (Integrate) to build a unified architecture.
 *   **40 - 59: Feature-Led Communication.** You are likely competing on price and features rather than value. Focus heavily on Phase 2 (Link) to build a Strategic Narrative Blueprint.
 *   **0 - 39: Narrative Disconnect.** Your messaging is confusing the market and hindering growth. A complete narrative rebuild is required starting from Phase 1.

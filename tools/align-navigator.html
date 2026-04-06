@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALIGN Navigator — Strategic Storytelling Framework</title>
+<style>
+/* ── reset & base ──────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d0d1a;--surface:#141428;--surface2:#1c1c3a;
+  --border:#2a2a4a;--text:#e0e0e0;--muted:#888;
+  --accent:#e94560;--accent-glow:rgba(233,69,96,.25);
+  --link:#4fc3f7;--green:#66bb6a;--yellow:#fdd835;
+  --radius:8px;--max-w:860px;
+}
+html{font-size:15px;scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh}
+
+/* ── layout ────────────────────────────────────────────────── */
+.wrap{max-width:var(--max-w);margin:0 auto;padding:2rem 1.25rem 4rem}
+
+header{text-align:center;margin-bottom:2.5rem}
+header h1{font-size:1.7rem;letter-spacing:.02em}
+header h1 span{color:var(--accent)}
+header p.sub{color:var(--muted);margin-top:.35rem;font-size:.92rem}
+
+/* ── phase navigation ──────────────────────────────────────── */
+.phase-nav{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem}
+.phase-nav button{
+  background:var(--surface);border:1px solid var(--border);color:var(--muted);
+  padding:.5rem 1rem;border-radius:var(--radius);cursor:pointer;font-size:.85rem;
+  transition:all .2s;position:relative;
+}
+.phase-nav button:hover{border-color:var(--accent);color:var(--text)}
+.phase-nav button.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.phase-nav button .badge{
+  position:absolute;top:-6px;right:-6px;background:var(--green);color:#fff;
+  font-size:.65rem;width:18px;height:18px;border-radius:50%;display:none;
+  align-items:center;justify-content:center;font-weight:700;
+}
+.phase-nav button.done .badge{display:flex}
+
+/* ── panels ────────────────────────────────────────────────── */
+.panel{display:none;animation:fadeIn .3s ease}
+.panel.visible{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.25rem}
+.card h2{font-size:1.15rem;margin-bottom:.75rem;color:#fff}
+.card h3{font-size:.95rem;margin:1rem 0 .5rem;color:var(--accent)}
+.card p,.card li{font-size:.9rem;color:var(--text);margin-bottom:.4rem}
+.card ul{padding-left:1.25rem}
+
+.hint{font-size:.82rem;color:var(--muted);font-style:italic;margin-bottom:.65rem}
+
+/* ── forms ─────────────────────────────────────────────────── */
+label.field{display:block;margin-bottom:1rem}
+label.field span{display:block;font-size:.82rem;color:var(--muted);margin-bottom:.25rem}
+input[type="text"],input[type="number"],textarea,select{
+  width:100%;background:var(--surface2);border:1px solid var(--border);color:var(--text);
+  padding:.55rem .75rem;border-radius:var(--radius);font-size:.88rem;font-family:inherit;
+  transition:border-color .2s;
+}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
+textarea{resize:vertical;min-height:70px}
+
+/* score slider row */
+.score-row{display:flex;align-items:center;gap:.75rem;margin-bottom:.85rem;flex-wrap:wrap}
+.score-row .label{flex:1;font-size:.85rem;min-width:180px}
+.score-row input[type="range"]{flex:0 0 140px;accent-color:var(--accent)}
+.score-row .val{width:28px;text-align:center;font-weight:700;font-size:.9rem;color:var(--accent)}
+
+/* ── progress bar ──────────────────────────────────────────── */
+.progress-wrap{margin-bottom:2rem}
+.progress-bar{height:6px;background:var(--surface2);border-radius:3px;overflow:hidden}
+.progress-bar .fill{height:100%;background:var(--accent);transition:width .4s ease;width:0}
+.progress-label{display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted);margin-top:.3rem}
+
+/* ── score display ─────────────────────────────────────────── */
+.score-display{text-align:center;padding:1.5rem;border:2px solid var(--accent);border-radius:var(--radius);margin:1rem 0}
+.score-display .number{font-size:3rem;font-weight:800;color:var(--accent)}
+.score-display .out-of{font-size:1rem;color:var(--muted)}
+.score-display .interpretation{margin-top:.5rem;font-size:.9rem}
+
+/* ── buttons ───────────────────────────────────────────────── */
+.btn{
+  display:inline-flex;align-items:center;gap:.4rem;
+  padding:.6rem 1.2rem;border:none;border-radius:var(--radius);cursor:pointer;
+  font-size:.88rem;font-weight:600;transition:all .2s;font-family:inherit;
+}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{filter:brightness(1.15)}
+.btn-outline{background:transparent;border:1px solid var(--border);color:var(--text)}
+.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+.btn-sm{padding:.4rem .8rem;font-size:.8rem}
+
+.actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem;justify-content:flex-end}
+
+/* ── result badge ──────────────────────────────────────────── */
+.result-badge{display:inline-block;padding:.25rem .65rem;border-radius:4px;font-size:.82rem;font-weight:600;margin-left:.5rem}
+.result-badge.green{background:rgba(102,187,106,.15);color:var(--green)}
+.result-badge.yellow{background:rgba(253,216,53,.15);color:var(--yellow)}
+.result-badge.red{background:rgba(233,69,96,.15);color:var(--accent)}
+
+/* ── framework recommendation ──────────────────────────────── */
+.reco{padding:1rem;background:var(--surface2);border-left:3px solid var(--accent);border-radius:0 var(--radius) var(--radius) 0;margin:1rem 0}
+.reco strong{color:#fff}
+
+/* ── export area ───────────────────────────────────────────── */
+.export-area{margin-top:1.5rem}
+.export-area textarea{min-height:200px;font-family:"SF Mono",Monaco,Consolas,monospace;font-size:.78rem;line-height:1.5}
+
+/* ── footer ────────────────────────────────────────────────── */
+footer{text-align:center;padding:2rem 0 1rem;font-size:.78rem;color:var(--muted);border-top:1px solid var(--border);margin-top:3rem}
+footer a{color:var(--link);text-decoration:none}
+
+/* ── responsive ────────────────────────────────────────────── */
+@media(max-width:600px){
+  .phase-nav{gap:.35rem}
+  .phase-nav button{padding:.4rem .6rem;font-size:.78rem}
+  .score-row{flex-direction:column;align-items:flex-start;gap:.3rem}
+  .score-row input[type="range"]{flex:1;width:100%}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  HEADER                                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<header>
+  <h1><span>ALIGN</span> Navigator</h1>
+  <p class="sub">Interactive companion for the ALIGN Strategic Storytelling Framework by diShine.</p>
+</header>
+
+<!-- progress bar -->
+<div class="progress-wrap">
+  <div class="progress-bar"><div class="fill" id="progressFill"></div></div>
+  <div class="progress-label"><span id="progressText">Phase 1 of 5</span><span id="progressPct">0%</span></div>
+</div>
+
+<!-- phase navigation -->
+<nav class="phase-nav" id="phaseNav">
+  <button class="active" data-phase="0">A — Assess<span class="badge">✓</span></button>
+  <button data-phase="1">L — Link<span class="badge">✓</span></button>
+  <button data-phase="2">I — Integrate<span class="badge">✓</span></button>
+  <button data-phase="3">G — Generate<span class="badge">✓</span></button>
+  <button data-phase="4">N — Navigate<span class="badge">✓</span></button>
+  <button data-phase="5">Export</button>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  PHASE 1 — ASSESS                                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="panel visible" id="phase0">
+<div class="card">
+  <h2>Phase 1: Assess — Narrative Coherence Scorecard</h2>
+  <p>Score your current narrative across four dimensions to produce a Narrative Coherence Score (0-100). Gather your website homepage, sales deck, case studies, and recent email campaigns before you begin.</p>
+</div>
+
+<!-- Dimension 1 -->
+<div class="card">
+  <h3>Dimension 1 — Narrative Consistency (0-25)</h3>
+  <p class="hint">Does your story hold together across every touchpoint?</p>
+  <div class="score-row"><span class="label">1. Core claim is identical across homepage, deck, and LinkedIn.</span><input type="range" min="0" max="5" value="0" data-dim="consistency" data-idx="0"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">2. The villain (the problem you solve) is articulated consistently.</span><input type="range" min="0" max="5" value="0" data-dim="consistency" data-idx="1"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">3. The customer is positioned as the hero, not your product.</span><input type="range" min="0" max="5" value="0" data-dim="consistency" data-idx="2"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">4. Tone and voice are consistent across channels.</span><input type="range" min="0" max="5" value="0" data-dim="consistency" data-idx="3"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">5. Visual narrative supports the core story.</span><input type="range" min="0" max="5" value="0" data-dim="consistency" data-idx="4"><span class="val">0</span></div>
+  <div style="text-align:right;font-size:.88rem;color:var(--muted)">Subtotal: <strong id="subConsistency">0</strong> / 25</div>
+</div>
+
+<!-- Dimension 2 -->
+<div class="card">
+  <h3>Dimension 2 — Message Hierarchy (0-25)</h3>
+  <p class="hint">Is your story structured logically, or do you overwhelm prospects with features before establishing the narrative?</p>
+  <div class="score-row"><span class="label">1. The "why" is established before features.</span><input type="range" min="0" max="5" value="0" data-dim="hierarchy" data-idx="0"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">2. The unique mechanism is clearly explained.</span><input type="range" min="0" max="5" value="0" data-dim="hierarchy" data-idx="1"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">3. Features support the "how," not the other way around.</span><input type="range" min="0" max="5" value="0" data-dim="hierarchy" data-idx="2"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">4. Messaging is free of jargon and internal acronyms.</span><input type="range" min="0" max="5" value="0" data-dim="hierarchy" data-idx="3"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">5. Narrative is understandable by skimming headlines.</span><input type="range" min="0" max="5" value="0" data-dim="hierarchy" data-idx="4"><span class="val">0</span></div>
+  <div style="text-align:right;font-size:.88rem;color:var(--muted)">Subtotal: <strong id="subHierarchy">0</strong> / 25</div>
+</div>
+
+<!-- Dimension 3 -->
+<div class="card">
+  <h3>Dimension 3 — Emotional Resonance (0-25)</h3>
+  <p class="hint">Does your story connect with the psychological drivers of your B2B buyers?</p>
+  <div class="score-row"><span class="label">1. Messaging shows deep understanding of buyer frustrations.</span><input type="range" min="0" max="5" value="0" data-dim="resonance" data-idx="0"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">2. The "after state" paints a compelling picture of success.</span><input type="range" min="0" max="5" value="0" data-dim="resonance" data-idx="1"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">3. The cost of inaction is clearly articulated.</span><input type="range" min="0" max="5" value="0" data-dim="resonance" data-idx="2"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">4. Case studies focus on human impact, not just metrics.</span><input type="range" min="0" max="5" value="0" data-dim="resonance" data-idx="3"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">5. Story feels genuine, avoiding hyperbole.</span><input type="range" min="0" max="5" value="0" data-dim="resonance" data-idx="4"><span class="val">0</span></div>
+  <div style="text-align:right;font-size:.88rem;color:var(--muted)">Subtotal: <strong id="subResonance">0</strong> / 25</div>
+</div>
+
+<!-- Dimension 4 -->
+<div class="card">
+  <h3>Dimension 4 — Competitive Differentiation (0-25)</h3>
+  <p class="hint">Does your story carve out a unique market position?</p>
+  <div class="score-row"><span class="label">1. You take a clear stance against a status quo.</span><input type="range" min="0" max="5" value="0" data-dim="differentiation" data-idx="0"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">2. You articulate a fundamental market shift.</span><input type="range" min="0" max="5" value="0" data-dim="differentiation" data-idx="1"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">3. Your narrative cannot be pasted onto a competitor's site.</span><input type="range" min="0" max="5" value="0" data-dim="differentiation" data-idx="2"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">4. Your story is backed by unique data or methodology.</span><input type="range" min="0" max="5" value="0" data-dim="differentiation" data-idx="3"><span class="val">0</span></div>
+  <div class="score-row"><span class="label">5. Core narrative is simple enough for a prospect to repeat.</span><input type="range" min="0" max="5" value="0" data-dim="differentiation" data-idx="4"><span class="val">0</span></div>
+  <div style="text-align:right;font-size:.88rem;color:var(--muted)">Subtotal: <strong id="subDifferentiation">0</strong> / 25</div>
+</div>
+
+<!-- total score -->
+<div class="score-display" id="assessScoreDisplay">
+  <div class="number" id="totalScore">0</div>
+  <div class="out-of">/ 100</div>
+  <div class="interpretation" id="scoreInterpretation">Move the sliders above to calculate your Narrative Coherence Score.</div>
+</div>
+
+<label class="field">
+  <span>Notes (optional) — anything you want to remember about this assessment.</span>
+  <textarea id="assessNotes" placeholder="e.g. &quot;Sales deck scored low on consistency — the villain changes between slides 3 and 8.&quot;"></textarea>
+</label>
+
+<div class="actions">
+  <button class="btn btn-primary" onclick="goPhase(1)">Continue to Phase 2 →</button>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  PHASE 2 — LINK                                           -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="panel" id="phase1">
+<div class="card">
+  <h2>Phase 2: Link — Strategic Narrative Blueprint</h2>
+  <p>Connect your business strategy to your narrative architecture. This blueprint becomes the foundational document for all storytelling efforts.</p>
+</div>
+
+<div class="card">
+  <h3>1. Strategic context</h3>
+  <label class="field"><span>Core business objective (next 12-18 months)</span>
+    <textarea id="linkObjective" placeholder="e.g. &quot;Shift from SMB transactional sales to enterprise complex sales.&quot;"></textarea></label>
+  <label class="field"><span>Primary target audience (the hero)</span>
+    <input type="text" id="linkHero" placeholder="e.g. &quot;VP of marketing operations at mid-market B2B tech companies.&quot;"></label>
+  <label class="field"><span>The paradigm shift (the "why now?")</span>
+    <textarea id="linkParadigm" placeholder="What fundamental change makes your approach necessary right now?"></textarea></label>
+</div>
+
+<div class="card">
+  <h3>2. Customer transformation journey</h3>
+  <p class="hint">Map the journey from the customer's current painful reality to the successful future state you enable.</p>
+
+  <h3 style="color:var(--accent);margin-top:1rem">The "before" state</h3>
+  <label class="field"><span>External problem (what they are dealing with)</span>
+    <input type="text" id="linkBeforeExt" placeholder="e.g. &quot;Siloed data across 5 marketing platforms.&quot;"></label>
+  <label class="field"><span>Internal problem (how it makes them feel)</span>
+    <input type="text" id="linkBeforeInt" placeholder="e.g. &quot;Overwhelmed, anxious about proving ROI to the board.&quot;"></label>
+  <label class="field"><span>Philosophical problem (why it is wrong)</span>
+    <input type="text" id="linkBeforePhil" placeholder="e.g. &quot;Marketers shouldn't need to be data scientists to know what works.&quot;"></label>
+
+  <h3 style="color:var(--green);margin-top:1rem">The "after" state</h3>
+  <label class="field"><span>External success (what they achieve)</span>
+    <input type="text" id="linkAfterExt" placeholder="e.g. &quot;Unified, real-time attribution dashboards.&quot;"></label>
+  <label class="field"><span>Internal success (how they feel)</span>
+    <input type="text" id="linkAfterInt" placeholder="e.g. &quot;Confident, seen as a strategic revenue driver.&quot;"></label>
+  <label class="field"><span>Philosophical success (the new reality)</span>
+    <input type="text" id="linkAfterPhil" placeholder="e.g. &quot;Marketing is finally recognized as a science.&quot;"></label>
+</div>
+
+<div class="card">
+  <h3>3. The villain</h3>
+  <p class="hint">The villain is rarely a competitor. It is the underlying problem or outdated methodology keeping the hero stuck.</p>
+  <label class="field"><span>The villain</span>
+    <input type="text" id="linkVillain" placeholder="e.g. &quot;The last-touch attribution illusion.&quot;"></label>
+  <label class="field"><span>How the villain attacks</span>
+    <textarea id="linkVillainHow" placeholder="How does this villain keep your hero stuck in the &quot;before&quot; state?"></textarea></label>
+</div>
+
+<div class="card">
+  <h3>4. The guide (your brand)</h3>
+  <label class="field"><span>Empathy — how you show you understand their pain</span>
+    <textarea id="linkEmpathy" placeholder="e.g. &quot;We know how frustrating it is to spend millions with no idea which campaigns closed the deal.&quot;"></textarea></label>
+  <label class="field"><span>Authority — why they should trust you</span>
+    <textarea id="linkAuthority" placeholder="e.g. &quot;We've helped 500+ B2B marketing teams build data models the CFO actually trusts.&quot;"></textarea></label>
+</div>
+
+<div class="card">
+  <h3>5. The unique mechanism</h3>
+  <label class="field"><span>Mechanism name</span>
+    <input type="text" id="linkMechName" placeholder="e.g. &quot;The Full-Funnel Synthesis Engine&quot;"></label>
+  <label class="field"><span>Step 1</span><input type="text" id="linkMech1" placeholder="e.g. &quot;Connects all data sources via native APIs.&quot;"></label>
+  <label class="field"><span>Step 2</span><input type="text" id="linkMech2" placeholder="e.g. &quot;Cleans and normalizes data using proprietary ML model.&quot;"></label>
+  <label class="field"><span>Step 3</span><input type="text" id="linkMech3" placeholder="e.g. &quot;Outputs board-ready attribution reports.&quot;"></label>
+</div>
+
+<div class="card">
+  <h3>6. Message hierarchy</h3>
+  <label class="field"><span>Primary message — the one thing you want them to remember</span>
+    <textarea id="linkPrimary" placeholder="e.g. &quot;Stop guessing. Start proving.&quot;"></textarea></label>
+  <label class="field"><span>Pillar 1 (mechanism focus)</span><input type="text" id="linkPillar1" placeholder=""></label>
+  <label class="field"><span>Pillar 2 (transformation focus)</span><input type="text" id="linkPillar2" placeholder=""></label>
+  <label class="field"><span>Pillar 3 (enemy focus)</span><input type="text" id="linkPillar3" placeholder=""></label>
+</div>
+
+<div class="card">
+  <h3>Validation checklist</h3>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="link-check"> Does it directly support the core business objective?</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="link-check"> Is the hero clearly the customer, not your product?</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="link-check"> Is the villain a specific problem, not a competitor?</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="link-check"> Is the unique mechanism clearly articulated?</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="link-check"> Can the narrative adapt across channels?</label>
+</div>
+
+<div class="actions">
+  <button class="btn btn-outline" onclick="goPhase(0)">← Back</button>
+  <button class="btn btn-primary" onclick="goPhase(2)">Continue to Phase 3 →</button>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  PHASE 3 — INTEGRATE                                      -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="panel" id="phase2">
+<div class="card">
+  <h2>Phase 3: Integrate — Framework Selection</h2>
+  <p>Score your go-to-market motion to determine which narrative framework fits best, then synthesize your narrative into a Pixar Pitch.</p>
+</div>
+
+<div class="card">
+  <h3>Framework selection diagnostic</h3>
+  <p class="hint">Score each dimension to find the right narrative architecture.</p>
+
+  <label class="field"><span>1. Deal complexity</span>
+    <select id="intDeal"><option value="1">Transactional (&lt; 30 days, single buyer) — 1</option><option value="3">Mid-market (1-3 months, 2-3 buyers) — 3</option><option value="5">Enterprise (6-18 months, 5+ buyers) — 5</option></select></label>
+  <label class="field"><span>2. Market maturity</span>
+    <select id="intMarket"><option value="1">Established category — 1</option><option value="3">Emerging category — 3</option><option value="5">Category creation — 5</option></select></label>
+  <label class="field"><span>3. Primary objective</span>
+    <select id="intObjective"><option value="1">Direct response / lead gen — 1</option><option value="3">Brand positioning / differentiation — 3</option><option value="5">Thought leadership / market education — 5</option></select></label>
+  <label class="field"><span>4. Buyer psychology</span>
+    <select id="intPsych"><option value="1">Seeking efficiency / cost reduction — 1</option><option value="3">Seeking growth / competitive advantage — 3</option><option value="5">Seeking risk mitigation / compliance — 5</option></select></label>
+  <label class="field"><span>5. Product nature</span>
+    <select id="intProduct"><option value="1">Point solution / tool — 1</option><option value="3">Platform / system of record — 3</option><option value="5">Methodology / consulting / transformation — 5</option></select></label>
+
+  <div class="score-display" style="margin-top:1rem">
+    <div class="number" id="intTotal">5</div>
+    <div class="out-of">/ 25</div>
+    <div class="interpretation" id="intInterpretation"></div>
+  </div>
+  <div class="reco" id="intReco"></div>
+</div>
+
+<div class="card">
+  <h3>Pixar Pitch synthesis</h3>
+  <p class="hint">Condense your entire blueprint into six sentences that anyone in the company can memorize.</p>
+  <label class="field"><span>Once upon a time... (target audience and status quo)</span>
+    <textarea id="pixar1" placeholder=""></textarea></label>
+  <label class="field"><span>Every day... (the pain caused by the villain)</span>
+    <textarea id="pixar2" placeholder=""></textarea></label>
+  <label class="field"><span>One day... (the paradigm shift or discovery of your brand)</span>
+    <textarea id="pixar3" placeholder=""></textarea></label>
+  <label class="field"><span>Because of that... (immediate benefit of your mechanism)</span>
+    <textarea id="pixar4" placeholder=""></textarea></label>
+  <label class="field"><span>Because of that... (compounding secondary benefits)</span>
+    <textarea id="pixar5" placeholder=""></textarea></label>
+  <label class="field"><span>Until finally... (the ultimate "after" state)</span>
+    <textarea id="pixar6" placeholder=""></textarea></label>
+</div>
+
+<div class="actions">
+  <button class="btn btn-outline" onclick="goPhase(1)">← Back</button>
+  <button class="btn btn-primary" onclick="goPhase(3)">Continue to Phase 4 →</button>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  PHASE 4 — GENERATE                                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="panel" id="phase3">
+<div class="card">
+  <h2>Phase 4: Generate — Content Narrative Matrix</h2>
+  <p>Map your strategic narrative to specific channels and journey stages. Fill in each cell to create your content plan.</p>
+</div>
+
+<div class="card">
+  <h3>1. Awareness — problem recognition</h3>
+  <p class="hint">Focus: the villain and the "before" state.</p>
+  <label class="field"><span>Core message</span>
+    <textarea id="gen1Msg" placeholder="e.g. &quot;Last-touch attribution is lying to your CFO.&quot;"></textarea></label>
+  <label class="field"><span>Content format</span>
+    <input type="text" id="gen1Format" placeholder="e.g. &quot;LinkedIn short-form video, thought leadership blog post.&quot;"></label>
+  <label class="field"><span>Key metric</span>
+    <input type="text" id="gen1Metric" placeholder="e.g. &quot;Engagement rate, reach.&quot;"></label>
+</div>
+
+<div class="card">
+  <h3>2. Consideration — solution exploration</h3>
+  <p class="hint">Focus: the guide and the paradigm shift.</p>
+  <label class="field"><span>Core message</span>
+    <textarea id="gen2Msg" placeholder="e.g. &quot;How top B2B teams are shifting to full-funnel synthesis.&quot;"></textarea></label>
+  <label class="field"><span>Content format</span>
+    <input type="text" id="gen2Format" placeholder="e.g. &quot;Webinar, comprehensive guide, podcast.&quot;"></label>
+  <label class="field"><span>Key metric</span>
+    <input type="text" id="gen2Metric" placeholder="e.g. &quot;Lead capture, time on page.&quot;"></label>
+</div>
+
+<div class="card">
+  <h3>3. Decision — vendor selection</h3>
+  <p class="hint">Focus: the unique mechanism and the "after" state.</p>
+  <label class="field"><span>Core message</span>
+    <textarea id="gen3Msg" placeholder="e.g. &quot;See how [Company] unified their data and proved 300% marketing ROI.&quot;"></textarea></label>
+  <label class="field"><span>Content format</span>
+    <input type="text" id="gen3Format" placeholder="e.g. &quot;Case study, product demo, ROI calculator.&quot;"></label>
+  <label class="field"><span>Key metric</span>
+    <input type="text" id="gen3Metric" placeholder="e.g. &quot;Demo requests, pipeline velocity.&quot;"></label>
+</div>
+
+<div class="card">
+  <h3>4. Retention — advocacy and expansion</h3>
+  <p class="hint">Focus: the transformation and the hero's journey.</p>
+  <label class="field"><span>Core message</span>
+    <textarea id="gen4Msg" placeholder="e.g. &quot;You've mastered basic attribution. Here's what's next.&quot;"></textarea></label>
+  <label class="field"><span>Content format</span>
+    <input type="text" id="gen4Format" placeholder="e.g. &quot;Customer success stories, advanced use case guides.&quot;"></label>
+  <label class="field"><span>Key metric</span>
+    <input type="text" id="gen4Metric" placeholder="e.g. &quot;NRR, NPS, advocacy referrals.&quot;"></label>
+</div>
+
+<div class="card">
+  <h3>Core content assets checklist</h3>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="gen-check"> Strategic homepage (before/after state, Guide positioning).</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="gen-check"> "Why us" / about page (origin story, empathy, authority).</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="gen-check"> Core sales deck (10-15 slides, structured around chosen framework).</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="gen-check"> "Villain" manifesto (thought leadership piece).</label>
+  <label style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem;font-size:.88rem;cursor:pointer">
+    <input type="checkbox" class="gen-check"> 3 transformational case studies (customer journey, not feature lists).</label>
+</div>
+
+<div class="actions">
+  <button class="btn btn-outline" onclick="goPhase(2)">← Back</button>
+  <button class="btn btn-primary" onclick="goPhase(4)">Continue to Phase 5 →</button>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  PHASE 5 — NAVIGATE                                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="panel" id="phase4">
+<div class="card">
+  <h2>Phase 5: Navigate — Measurement Dashboard</h2>
+  <p>Define your KPI baselines and targets so you can prove narrative impact on revenue.</p>
+</div>
+
+<div class="card">
+  <h3>Narrative consistency metrics</h3>
+  <label class="field"><span>Message pull-through rate — baseline (%)</span>
+    <input type="text" id="nav1Base" placeholder="e.g. 45%"></label>
+  <label class="field"><span>Message pull-through rate — target (%)</span>
+    <input type="text" id="nav1Target" placeholder="e.g. > 70%"></label>
+  <label class="field"><span>Content coherence score — baseline (0-100)</span>
+    <input type="text" id="nav2Base" placeholder="e.g. 52"></label>
+  <label class="field"><span>Content coherence score — target (0-100)</span>
+    <input type="text" id="nav2Target" placeholder="e.g. > 80"></label>
+</div>
+
+<div class="card">
+  <h3>Emotional resonance metrics</h3>
+  <label class="field"><span>Message clarity score — baseline (%)</span>
+    <input type="text" id="nav3Base" placeholder="e.g. 35%"></label>
+  <label class="field"><span>Message clarity score — target (%)</span>
+    <input type="text" id="nav3Target" placeholder="e.g. > 60%"></label>
+  <label class="field"><span>Content engagement depth — baseline (avg time on page)</span>
+    <input type="text" id="nav4Base" placeholder="e.g. 1:15"></label>
+  <label class="field"><span>Content engagement depth — target</span>
+    <input type="text" id="nav4Target" placeholder="e.g. > 2:30"></label>
+</div>
+
+<div class="card">
+  <h3>Business impact (ROI) metrics</h3>
+  <label class="field"><span>Sales cycle velocity — baseline (days MQL → Closed Won)</span>
+    <input type="text" id="nav5Base" placeholder="e.g. 95 days"></label>
+  <label class="field"><span>Sales cycle velocity — target</span>
+    <input type="text" id="nav5Target" placeholder="e.g. 15-20% reduction"></label>
+  <label class="field"><span>Win rate (competitive) — baseline (%)</span>
+    <input type="text" id="nav6Base" placeholder="e.g. 22%"></label>
+  <label class="field"><span>Win rate (competitive) — target</span>
+    <input type="text" id="nav6Target" placeholder="e.g. > 35%"></label>
+  <label class="field"><span>Customer acquisition cost (CAC) — baseline</span>
+    <input type="text" id="nav7Base" placeholder="e.g. $12,500"></label>
+  <label class="field"><span>CAC — target</span>
+    <input type="text" id="nav7Target" placeholder="e.g. 10-15% reduction"></label>
+  <label class="field"><span>Net revenue retention (NRR) — baseline (%)</span>
+    <input type="text" id="nav8Base" placeholder="e.g. 98%"></label>
+  <label class="field"><span>NRR — target</span>
+    <input type="text" id="nav8Target" placeholder="e.g. > 110%"></label>
+</div>
+
+<div class="card">
+  <h3>A/B testing plan</h3>
+  <p class="hint">Define which structural narrative elements you will test first.</p>
+  <label class="field"><span>Villain variant A vs. B</span>
+    <input type="text" id="navTestVillain" placeholder="e.g. &quot;Wasted spend&quot; vs. &quot;Inaccurate attribution data&quot;"></label>
+  <label class="field"><span>Hero's journey stage to test</span>
+    <input type="text" id="navTestStage" placeholder="e.g. &quot;Call to Adventure&quot; vs. &quot;Ordinary World&quot; for top-of-funnel"></label>
+  <label class="field"><span>Guide authority angle to test</span>
+    <input type="text" id="navTestGuide" placeholder="e.g. &quot;Proprietary methodology&quot; vs. &quot;Deep industry experience&quot;"></label>
+</div>
+
+<div class="actions">
+  <button class="btn btn-outline" onclick="goPhase(3)">← Back</button>
+  <button class="btn btn-primary" onclick="goPhase(5)">Export full report →</button>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--  EXPORT                                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<section class="panel" id="phase5">
+<div class="card">
+  <h2>Export your ALIGN report</h2>
+  <p>Below is a full markdown export of everything you entered. Copy it, paste it into your own docs, or save it as a <code>.md</code> file.</p>
+  <div class="actions" style="margin-top:.75rem;margin-bottom:.75rem">
+    <button class="btn btn-primary" onclick="generateExport()">Generate report</button>
+    <button class="btn btn-outline" onclick="copyExport(event)">Copy to clipboard</button>
+    <button class="btn btn-outline" onclick="downloadExport()">Download .md</button>
+  </div>
+  <div class="export-area">
+    <textarea id="exportArea" readonly placeholder="Click &quot;Generate report&quot; to build your export."></textarea>
+  </div>
+</div>
+
+<div class="card">
+  <h3>Save and load your progress</h3>
+  <p class="hint">Your data is stored in your browser's local storage. You can also download a JSON backup and reload it later.</p>
+  <div class="actions" style="margin-top:.75rem">
+    <button class="btn btn-outline btn-sm" onclick="downloadJSON()">Download JSON backup</button>
+    <label class="btn btn-outline btn-sm" style="cursor:pointer">Load JSON backup<input type="file" accept=".json" style="display:none" onchange="loadJSON(event)"></label>
+  </div>
+</div>
+
+<div class="actions">
+  <button class="btn btn-outline" onclick="goPhase(4)">← Back to Phase 5</button>
+</div>
+</section>
+
+<footer>
+  <p>ALIGN Strategic Storytelling Framework — <a href="https://dishine.it" target="_blank">diShine Digital Agency</a></p>
+  <p style="margin-top:.25rem">Designed by Kevin Escoda. Open-source under MIT license.</p>
+</footer>
+
+</div><!-- /wrap -->
+
+<script>
+/* ── state ─────────────────────────────────────────────────── */
+const STORAGE_KEY = 'align-navigator-data';
+let currentPhase = 0;
+
+/* ── phase navigation ──────────────────────────────────────── */
+function goPhase(n){
+  currentPhase = n;
+  document.querySelectorAll('.panel').forEach((p,i) => p.classList.toggle('visible', i===n));
+  document.querySelectorAll('.phase-nav button').forEach((b,i) => b.classList.toggle('active', i===n));
+  updateProgress();
+  saveState();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+document.querySelectorAll('.phase-nav button').forEach(b => {
+  b.addEventListener('click', () => goPhase(+b.dataset.phase));
+});
+
+/* ── progress bar ──────────────────────────────────────────── */
+function updateProgress(){
+  const pct = Math.round((Math.min(currentPhase,4)/4)*100);
+  document.getElementById('progressFill').style.width = pct+'%';
+  document.getElementById('progressPct').textContent = pct+'%';
+  document.getElementById('progressText').textContent = currentPhase < 5
+    ? 'Phase '+(currentPhase+1)+' of 5'
+    : 'Export';
+}
+
+/* ── scorecard logic (phase 1) ─────────────────────────────── */
+const dims = {consistency:[0,0,0,0,0],hierarchy:[0,0,0,0,0],resonance:[0,0,0,0,0],differentiation:[0,0,0,0,0]};
+
+document.querySelectorAll('input[type="range"]').forEach(slider => {
+  slider.addEventListener('input', function(){
+    const d = this.dataset.dim;
+    const i = +this.dataset.idx;
+    dims[d][i] = +this.value;
+    this.nextElementSibling.textContent = this.value;
+    recalcScore();
+    saveState();
+  });
+});
+
+function recalcScore(){
+  const sum = d => d.reduce((a,b)=>a+b,0);
+  const c = sum(dims.consistency), h = sum(dims.hierarchy), r = sum(dims.resonance), d = sum(dims.differentiation);
+  document.getElementById('subConsistency').textContent = c;
+  document.getElementById('subHierarchy').textContent = h;
+  document.getElementById('subResonance').textContent = r;
+  document.getElementById('subDifferentiation').textContent = d;
+  const total = c+h+r+d;
+  document.getElementById('totalScore').textContent = total;
+  const el = document.getElementById('scoreInterpretation');
+  if(total>=80) el.innerHTML='<span class="result-badge green">Strategic alignment.</span> Focus on Phase 5 (Navigate) to optimize and scale.';
+  else if(total>=60) el.innerHTML='<span class="result-badge yellow">Tactical fragmentation.</span> Focus on Phase 3 (Integrate) to build a unified architecture.';
+  else if(total>=40) el.innerHTML='<span class="result-badge yellow">Feature-led communication.</span> Focus on Phase 2 (Link) to build a strategic narrative blueprint.';
+  else el.innerHTML='<span class="result-badge red">Narrative disconnect.</span> A complete narrative rebuild is required starting from Phase 1.';
+}
+
+/* ── framework selection logic (phase 3) ───────────────────── */
+['intDeal','intMarket','intObjective','intPsych','intProduct'].forEach(id => {
+  document.getElementById(id).addEventListener('change', calcFramework);
+});
+
+function calcFramework(){
+  const t = ['intDeal','intMarket','intObjective','intPsych','intProduct']
+    .reduce((s,id) => s + (+document.getElementById(id).value), 0);
+  document.getElementById('intTotal').textContent = t;
+  const el = document.getElementById('intInterpretation');
+  const reco = document.getElementById('intReco');
+  if(t<=11){
+    el.textContent = 'The clarity imperative.';
+    reco.innerHTML = '<strong>Recommended: StoryBrand + PAS.</strong> Your buyers make fast decisions. Use StoryBrand for the website and PAS for outbound campaigns.';
+  } else if(t<=18){
+    el.textContent = 'The hybrid architecture.';
+    reco.innerHTML = '<strong>Recommended: StoryBrand (top-of-funnel) + Hero\'s Journey (mid-funnel).</strong> Use StoryBrand to capture attention, then transition to the Hero\'s Journey for sales decks and webinars.';
+  } else {
+    el.textContent = 'The transformational journey.';
+    reco.innerHTML = '<strong>Recommended: Hero\'s Journey.</strong> Your biggest competitor is the status quo. Guide the buyer through the psychological resistance of organizational change.';
+  }
+  saveState();
+}
+
+/* ── export generation ─────────────────────────────────────── */
+function v(id){ return (document.getElementById(id)||{}).value || ''; }
+function ch(cls){ return [...document.querySelectorAll('.'+cls)].map(c=>c.checked); }
+
+function generateExport(){
+  const total = +document.getElementById('totalScore').textContent;
+  const intT  = +document.getElementById('intTotal').textContent;
+  let fwLabel = 'StoryBrand + PAS';
+  if(intT > 18) fwLabel = 'Hero\'s Journey';
+  else if(intT > 11) fwLabel = 'Hybrid (StoryBrand + Hero\'s Journey)';
+
+  const checks = ch('link-check');
+  const genChecks = ch('gen-check');
+  const genLabels = [
+    'Strategic homepage','Why us / about page','Core sales deck','Villain manifesto','3 transformational case studies'
+  ];
+  const linkLabels = [
+    'Supports core business objective','Hero is the customer','Villain is a problem, not a competitor',
+    'Unique mechanism is clear','Narrative adapts across channels'
+  ];
+
+  let md = `# ALIGN Strategic Storytelling Report\n\n`;
+  md += `*Generated with the ALIGN Navigator — diShine Digital Agency*\n\n---\n\n`;
+
+  // Phase 1
+  md += `## Phase 1: Assess — Narrative Coherence Score\n\n`;
+  md += `| Dimension | Score |\n| :--- | :--- |\n`;
+  md += `| Narrative Consistency | ${document.getElementById('subConsistency').textContent} / 25 |\n`;
+  md += `| Message Hierarchy | ${document.getElementById('subHierarchy').textContent} / 25 |\n`;
+  md += `| Emotional Resonance | ${document.getElementById('subResonance').textContent} / 25 |\n`;
+  md += `| Competitive Differentiation | ${document.getElementById('subDifferentiation').textContent} / 25 |\n`;
+  md += `| **Total** | **${total} / 100** |\n\n`;
+  if(v('assessNotes')) md += `**Notes:** ${v('assessNotes')}\n\n`;
+  md += `---\n\n`;
+
+  // Phase 2
+  md += `## Phase 2: Link — Strategic Narrative Blueprint\n\n`;
+  md += `### Strategic context\n`;
+  md += `- **Core objective:** ${v('linkObjective')}\n`;
+  md += `- **Target audience (hero):** ${v('linkHero')}\n`;
+  md += `- **Paradigm shift:** ${v('linkParadigm')}\n\n`;
+  md += `### Before state\n`;
+  md += `- **External problem:** ${v('linkBeforeExt')}\n`;
+  md += `- **Internal problem:** ${v('linkBeforeInt')}\n`;
+  md += `- **Philosophical problem:** ${v('linkBeforePhil')}\n\n`;
+  md += `### After state\n`;
+  md += `- **External success:** ${v('linkAfterExt')}\n`;
+  md += `- **Internal success:** ${v('linkAfterInt')}\n`;
+  md += `- **Philosophical success:** ${v('linkAfterPhil')}\n\n`;
+  md += `### The villain\n`;
+  md += `- **Villain:** ${v('linkVillain')}\n`;
+  md += `- **How it attacks:** ${v('linkVillainHow')}\n\n`;
+  md += `### The guide\n`;
+  md += `- **Empathy:** ${v('linkEmpathy')}\n`;
+  md += `- **Authority:** ${v('linkAuthority')}\n\n`;
+  md += `### Unique mechanism: ${v('linkMechName')}\n`;
+  md += `1. ${v('linkMech1')}\n2. ${v('linkMech2')}\n3. ${v('linkMech3')}\n\n`;
+  md += `### Message hierarchy\n`;
+  md += `- **Primary:** ${v('linkPrimary')}\n`;
+  md += `- **Pillar 1 (mechanism):** ${v('linkPillar1')}\n`;
+  md += `- **Pillar 2 (transformation):** ${v('linkPillar2')}\n`;
+  md += `- **Pillar 3 (enemy):** ${v('linkPillar3')}\n\n`;
+  md += `### Validation\n`;
+  linkLabels.forEach((l,i) => { md += `- [${checks[i]?'x':' '}] ${l}\n`; });
+  md += `\n---\n\n`;
+
+  // Phase 3
+  md += `## Phase 3: Integrate — Framework Selection\n\n`;
+  md += `**Diagnostic score:** ${intT} / 25 → **${fwLabel}**\n\n`;
+  md += `### Pixar Pitch\n\n`;
+  md += `> *Once upon a time,* ${v('pixar1')}\n>\n`;
+  md += `> *Every day,* ${v('pixar2')}\n>\n`;
+  md += `> *One day,* ${v('pixar3')}\n>\n`;
+  md += `> *Because of that,* ${v('pixar4')}\n>\n`;
+  md += `> *Because of that,* ${v('pixar5')}\n>\n`;
+  md += `> *Until finally,* ${v('pixar6')}\n\n`;
+  md += `---\n\n`;
+
+  // Phase 4
+  md += `## Phase 4: Generate — Content Narrative Matrix\n\n`;
+  md += `| Stage | Core Message | Format | Key Metric |\n| :--- | :--- | :--- | :--- |\n`;
+  md += `| Awareness | ${v('gen1Msg')} | ${v('gen1Format')} | ${v('gen1Metric')} |\n`;
+  md += `| Consideration | ${v('gen2Msg')} | ${v('gen2Format')} | ${v('gen2Metric')} |\n`;
+  md += `| Decision | ${v('gen3Msg')} | ${v('gen3Format')} | ${v('gen3Metric')} |\n`;
+  md += `| Retention | ${v('gen4Msg')} | ${v('gen4Format')} | ${v('gen4Metric')} |\n\n`;
+  md += `### Content assets\n`;
+  genLabels.forEach((l,i) => { md += `- [${genChecks[i]?'x':' '}] ${l}\n`; });
+  md += `\n---\n\n`;
+
+  // Phase 5
+  md += `## Phase 5: Navigate — KPI Dashboard\n\n`;
+  md += `| Metric | Baseline | Target |\n| :--- | :--- | :--- |\n`;
+  md += `| Message pull-through rate | ${v('nav1Base')} | ${v('nav1Target')} |\n`;
+  md += `| Content coherence score | ${v('nav2Base')} | ${v('nav2Target')} |\n`;
+  md += `| Message clarity score | ${v('nav3Base')} | ${v('nav3Target')} |\n`;
+  md += `| Engagement depth | ${v('nav4Base')} | ${v('nav4Target')} |\n`;
+  md += `| Sales cycle velocity | ${v('nav5Base')} | ${v('nav5Target')} |\n`;
+  md += `| Win rate (competitive) | ${v('nav6Base')} | ${v('nav6Target')} |\n`;
+  md += `| CAC | ${v('nav7Base')} | ${v('nav7Target')} |\n`;
+  md += `| NRR | ${v('nav8Base')} | ${v('nav8Target')} |\n\n`;
+  md += `### A/B testing plan\n`;
+  md += `- **Villain test:** ${v('navTestVillain')}\n`;
+  md += `- **Journey stage test:** ${v('navTestStage')}\n`;
+  md += `- **Guide authority test:** ${v('navTestGuide')}\n\n`;
+  md += `---\n\n*Report generated by the ALIGN Navigator — https://github.com/diShine-digital-agency/align-framework*\n`;
+
+  document.getElementById('exportArea').value = md;
+}
+
+function copyExport(e){
+  const area = document.getElementById('exportArea');
+  if(!area.value){ generateExport(); }
+  navigator.clipboard.writeText(area.value).then(() => {
+    const btn = e.currentTarget;
+    const orig = btn.textContent;
+    btn.textContent = 'Copied.';
+    setTimeout(() => btn.textContent = orig, 1500);
+  });
+}
+
+function downloadExport(){
+  const area = document.getElementById('exportArea');
+  if(!area.value){ generateExport(); }
+  const blob = new Blob([area.value], {type:'text/markdown'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'align-report.md';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+/* ── save / load state ─────────────────────────────────────── */
+function collectState(){
+  const state = {dims, phase: currentPhase};
+  // all text inputs and textareas
+  document.querySelectorAll('input[type="text"],textarea,select').forEach(el => {
+    if(el.id) state[el.id] = el.value;
+  });
+  // checkboxes
+  state.linkChecks = ch('link-check');
+  state.genChecks = ch('gen-check');
+  return state;
+}
+
+function applyState(state){
+  if(!state) return;
+  // sliders
+  if(state.dims){
+    Object.keys(state.dims).forEach(d => {
+      state.dims[d].forEach((val,i) => {
+        dims[d][i] = val;
+        const sl = document.querySelector(`input[data-dim="${d}"][data-idx="${i}"]`);
+        if(sl){ sl.value = val; sl.nextElementSibling.textContent = val; }
+      });
+    });
+    recalcScore();
+  }
+  // fields
+  document.querySelectorAll('input[type="text"],textarea,select').forEach(el => {
+    if(el.id && state[el.id] !== undefined) el.value = state[el.id];
+  });
+  // checkboxes
+  if(state.linkChecks) document.querySelectorAll('.link-check').forEach((c,i) => c.checked = !!state.linkChecks[i]);
+  if(state.genChecks) document.querySelectorAll('.gen-check').forEach((c,i) => c.checked = !!state.genChecks[i]);
+  calcFramework();
+  if(state.phase !== undefined) goPhase(state.phase);
+}
+
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(collectState())); }catch(e){}
+}
+
+function downloadJSON(){
+  const blob = new Blob([JSON.stringify(collectState(),null,2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'align-navigator-backup.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function loadJSON(e){
+  const file = e.target.files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = function(){ try{ applyState(JSON.parse(reader.result)); saveState(); }catch(err){ alert('Could not parse file.'); } };
+  reader.readAsText(file);
+}
+
+// auto-save on any input
+document.addEventListener('input', saveState);
+document.addEventListener('change', saveState);
+
+// restore on load
+try{
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if(saved) applyState(JSON.parse(saved));
+}catch(e){}
+
+// init
+calcFramework();
+updateProgress();
+</script>
+</body>
+</html>

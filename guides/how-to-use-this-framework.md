@@ -1,6 +1,6 @@
 # How to Use the ALIGN Framework: A Step-by-Step Guide
 
-**Version:** 1.0.4
+**Version:** 1.1.0
 
 The ALIGN Framework is not a collection of isolated writing exercises; it is a sequential, operational engine designed to move a B2B company from "feature-led marketing" to "strategic narrative alignment." 
 
@@ -15,7 +15,7 @@ Before you can build a new narrative, you must objectively measure how broken th
 ### Step 1.1: The Internal Audit
 *   **Tool:** [`templates/01-assess-narrative-scorecard.md`](../templates/01-assess-narrative-scorecard.md)
 *   **Owner:** Head of Marketing or Founder.
-*   **Why it matters:** You cannot fix what you cannot measure. This 100-point scorecard forces you to evaluate your current messaging across four dimensions (Clarity, Differentiation, Emotional Resonance, Consistency). 
+*   **Why it matters:** You cannot fix what you cannot measure. This 100-point scorecard forces you to evaluate your current messaging across four dimensions (Narrative Consistency, Message Hierarchy, Emotional Resonance, Competitive Differentiation). 
 *   **Action:** Score your current website, primary sales deck, and top three case studies. If you score below 60, your narrative is actively costing you revenue.
 
 ### Step 1.2: The External Validation
@@ -83,3 +83,7 @@ Storytelling is not a creative art; it is a measurable business process.
 ---
 
 *This guide is part of the ALIGN Strategic Storytelling Framework by diShine Digital Agency.*
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is the **Step-by-Step User Guide** that covers all five phases and every tool in the framework. Start here if you are new to ALIGN.

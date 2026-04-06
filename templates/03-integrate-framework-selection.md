@@ -1,6 +1,6 @@
 # Phase 3: INTEGRATE — Framework Selection & Customization Workbook
 
-**Version:** 1.0.2
+**Version:** 1.1.0
 
 The third phase of the ALIGN Framework bridges the gap between your high-level Strategic Narrative Blueprint (Phase 2) and your actual content production (Phase 4). It helps you choose the right structural "skeleton" for your story and map your blueprint elements onto it.
 

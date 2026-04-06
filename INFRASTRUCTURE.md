@@ -1,37 +1,38 @@
-# ALIGN Strategic Framework - Strategic Infrastructure 🏛️
+# Infrastructure
 
-The ALIGN framework is built on top of a "Narrative-First" strategy stack. It combines traditional consulting methodologies with modern digital-first strategic principles.
-
----
-
-## 🏗 Strategy Stack
-
-- **Methodology Engine**: The 5-phase ALIGN process (Assess, Locate, Integrate, Grow, Nurture).
-- **Core KPIs**: Narrative Coherence Score™, Brand Momentum Index, and Conversion Variance.
-- **Reporting Framework**: Markdown-based strategic briefs for asynchronous organizational alignment.
-- **Tools used in the process**: Prismo (System Audit), diShine Dashboard (MarTech Audit), and Narrative Scorecard templates.
+This document describes the methodology stack and architectural principles behind the ALIGN framework.
 
 ---
 
-## ⚡ Strategic Architecture: Narrative led Growth
+## Strategy stack
 
-Standard growth strategies often focus on "top-of-funnel" volume. The ALIGN framework focuses on "narrative coherence" as the primary growth lever.
-
-### Key Benefits:
-- **Reduced Friction**: A coherent story reduces sales cycles and increases internal decision-making speed.
-- **Authenticity at Scale**: By starting with current customer reality (Phase 1), the resulting narrative is grounded in truth, not just marketing fluff.
-- **Operational Interconnectivity**: ALIGN ensures that branding, product, and sales are all pulling the same narrative lever.
+- **Methodology engine:** the 5-phase ALIGN process (Assess, Link, Integrate, Generate, Navigate).
+- **Core KPIs:** Narrative Coherence Score™, Brand Momentum Index, and Conversion Variance.
+- **Reporting format:** markdown-based strategic briefs designed for asynchronous review and organizational alignment.
+- **Tooling:** Narrative Scorecard templates, interview guides, and framework selection workbooks — all included in this repository.
 
 ---
 
-## 🔒 Security & Strategic Privacy
+## Strategic architecture: narrative-led growth
 
-Strategic audits often involve sensitive business data.
-- **Data Handling**: All Narrative Scorecard data remains local to the organization's strategic repository.
-- **Interview Protocols**: Customer interviews are conducted under strict NDA, with findings synthesized into anonymized "Narrative Themes" before further distribution.
+Standard growth strategies often focus on top-of-funnel volume. The ALIGN framework uses narrative coherence as the primary growth lever.
+
+- **Reduced friction.** A coherent story shortens sales cycles and accelerates internal decision-making.
+- **Authenticity at scale.** By starting with customer reality (Phase 1), the resulting narrative stays grounded in truth rather than assumptions.
+- **Operational alignment.** ALIGN ensures that branding, product, and sales all pull in the same narrative direction.
 
 ---
 
-## 🏁 Author
-**Strategic Vision by [Kevin Escoda](https://kescoda.com)**
-**Developed for diShine (Milan, IT)**
+## Data handling
+
+Strategic audits often involve sensitive business data. When using these templates in a real engagement:
+
+- All scorecard data should remain local to the organization's strategic repository.
+- Customer interviews should be conducted under NDA, with findings synthesized into anonymized themes before wider distribution.
+
+---
+
+## Author
+
+Strategic vision by [Kevin Escoda](https://kescoda.com).
+Developed for [diShine Digital Agency](https://dishine.it) (Milan, Italy).
