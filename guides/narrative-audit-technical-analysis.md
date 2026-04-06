@@ -109,3 +109,7 @@ How an experience is remembered is dictated by the **Peak-End Rule** — people 
 11. Taylor, S. E., & Thompson, S. C. (1982). *Stalking the elusive "vividness" effect.* Psychological Review.
 12. Alter, A. L., & Oppenheimer, M. (2009). *Uniting the tribes of fluency to form a metacognitive nation.* Personality and Social Psychology Review.
 13. Kahneman, D., Fredrickson, B. L., Schreiber, C. A., & Redelmeier, D. A. (1993). *When more pain is preferred to less: Adding a better end.* Psychological Science.
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.2: The External Validation (psychological analysis reference)**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).

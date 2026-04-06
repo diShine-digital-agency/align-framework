@@ -42,3 +42,7 @@ To truly optimize your storytelling, you must test the structural elements of yo
 *   **Test the Guide's Authority:** Do case studies perform better when they highlight your proprietary methodology (The Mechanism) or your deep industry experience (Empathy)?
 
 *This dashboard is part of the ALIGN Strategic Storytelling Framework by [diShine Digital Agency](https://dishine.it).*
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 5 — Navigate**, **Step 5.1: Track the Impact**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

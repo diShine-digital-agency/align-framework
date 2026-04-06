@@ -1,6 +1,6 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.0.3 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.0.4 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
@@ -15,6 +15,14 @@ Despite mountains of evidence showing storytelling's effectiveness, most B2B com
 When storytelling is not directly linked to business strategy, it becomes a creative exercise rather than a strategic asset. According to McKinsey, companies that align their narrative architecture with strategic priorities achieve **18% higher revenue growth** than those with disconnected approaches. Furthermore, a 2023 Forrester study found that only **23% of B2B marketers** can effectively measure the impact of their narrative approach on sales performance.
 
 The ALIGN Framework solves this by providing a structured, repeatable process for building, implementing, and measuring strategic narratives.
+
+---
+
+## How to Use This Framework
+
+For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each phase, and the strategic rationale behind every tool in this repository.
+
+In brief: start with the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to quantify your current narrative gaps, validate your findings with the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md), build the strategic foundation with the [Narrative Blueprint](templates/02-link-narrative-blueprint.md), select the right framework structure with the [Framework Selection Workbook](templates/03-integrate-framework-selection.md), deploy with the [Content Narrative Matrix](templates/04-generate-content-matrix.md), and measure impact with the [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md).
 
 ---
 
@@ -84,6 +92,8 @@ Roll out your strategic narrative across channels, align teams, track performanc
 
 ## Repository Structure
 
+> **New to the framework?** Start with the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)** — it explains what to do, who should own it, and why it matters at each phase.
+
 ```
 align-framework/
 ├── README.md                              ← This file
@@ -99,6 +109,7 @@ align-framework/
 │   └── narrative-audit-interview-guide.md    ← Customer Validation: 20-Question Interview Guide
 │
 ├── guides/
+│   ├── how-to-use-this-framework.md                 ← Step-by-step user guide (start here)
 │   ├── framework-comparison-matrix.md              ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
 │   └── narrative-audit-technical-analysis.md       ← Psychological principles behind each interview question
 │
@@ -112,17 +123,9 @@ align-framework/
 
 ## Getting Started
 
-**Step 1 — Understand the landscape.** Read the [Framework Comparison Matrix](guides/framework-comparison-matrix.md) to understand the five core B2B storytelling frameworks and when to use each one.
+For the full walkthrough with rationale and ownership guidance, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**.
 
-**Step 2 — Audit your current state.** Use the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to evaluate your existing website, sales deck, and marketing materials. Score each dimension honestly. Then run the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md) with 5-10 recent customers to validate your assumptions against market reality. For a deep understanding of the psychological principles behind each question, read the [Technical Analysis](guides/narrative-audit-technical-analysis.md).
-
-**Step 3 — Build your blueprint.** Gather your leadership team and complete the [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md). This is the most important step — everything else flows from it.
-
-**Step 4 — Select and customize your framework.** Use the [Framework Selection Workbook](templates/03-integrate-framework-selection.md) to choose the right narrative structure and map your blueprint elements onto it. The [Framework Comparison Guide](guides/framework-comparison-matrix.md) provides the detailed breakdown of each option.
-
-**Step 5 — Plan your content.** Use the [Content Narrative Matrix](templates/04-generate-content-matrix.md) to map your narrative to channels and journey stages.
-
-**Step 6 — Measure and optimize.** Implement the [Narrative Measurement Dashboard](templates/05-navigate-measurement-dashboard.md) to track the business impact of your narrative strategy.
+In brief: begin with the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to establish your baseline, then validate against market reality with the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md). Build the strategic foundation with the [Narrative Blueprint](templates/02-link-narrative-blueprint.md), select the right framework structure using the [Framework Selection Workbook](templates/03-integrate-framework-selection.md), deploy across channels with the [Content Narrative Matrix](templates/04-generate-content-matrix.md), and measure impact with the [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md).
 
 ---
 

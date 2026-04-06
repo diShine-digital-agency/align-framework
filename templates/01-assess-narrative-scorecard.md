@@ -88,3 +88,7 @@ Does your story carve out a unique position in the market, or do you sound exact
 *   **0 - 39: Narrative Disconnect.** Your messaging is confusing the market and hindering growth. A complete narrative rebuild is required starting from Phase 1.
 
 *This scorecard is part of the ALIGN Strategic Storytelling Framework by [diShine Digital Agency](https://dishine.it).*
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.1: The Internal Audit**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

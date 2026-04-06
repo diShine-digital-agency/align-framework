@@ -110,3 +110,7 @@ This guide compares the five most effective B2B strategic storytelling framework
 | **Product Marketing / Feature Launch** | Explaining utility and specific outcomes | **Jobs-to-be-Done (JTBD)** |
 
 *This guide is part of the ALIGN Strategic Storytelling Framework by [diShine Digital Agency](https://dishine.it).*
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Integrate**, **Step 3.1: Select the Framework (reference document)**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).

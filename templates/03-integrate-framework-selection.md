@@ -92,3 +92,7 @@ Regardless of which primary framework you chose, every company needs a 30-second
 Once this workbook is complete, your narrative architecture is locked. You are now ready to move to **Phase 4 (Generate)** and use the Content Narrative Matrix to build your actual website copy, sales decks, and campaigns.
 
 *This workbook is part of the ALIGN Strategic Storytelling Framework by [diShine Digital Agency](https://dishine.it).*
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Integrate**, **Step 3.1: Select the Framework & Step 3.2: Map the Elements**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

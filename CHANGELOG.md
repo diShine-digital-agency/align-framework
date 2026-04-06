@@ -59,9 +59,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.4] — 2026-04-06
+
+### Added
+
+*   `guides/how-to-use-this-framework.md` — A comprehensive step-by-step user guide that maps the full ALIGN journey across five phases: (1) Assess (Narrative Coherence Scorecard + customer interviews); (2) Link (Strategic Narrative Blueprint with executive team); (3) Integrate (framework selection scoring matrix + element mapping + Pixar Pitch synthesis); (4) Generate (Content Narrative Matrix mapped to buyer journey stages); (5) Navigate (9-metric KPI dashboard with A/B testing guidance). Each step names the responsible owner (Founder, Head of Marketing, Content Team, RevOps) and explains the strategic and psychological rationale behind the action.
+
+### Changed
+
+*   All 8 template and guide files — a contextual "Framework Navigation" footer has been added to each file, identifying which ALIGN phase and step it belongs to and linking back to the step-by-step user guide;
+*   `README.md` — updated to version 1.0.4; "How to Use This Framework" section added after the Why section and before the 5 Phases; repository structure block updated to include the user guide; Getting Started section updated with a link to the full guide;
+*   `CHANGELOG.md` — v1.0.4 entry added.
+
+---
+
 ## [Upcoming]
 
 *   Phase 3 (Integrate) worksheet: ~~a guided framework selection and customization workbook~~ *(released in v1.0.1)*;
-*   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing);
 *   A "Narrative Audit" interview guide with 20 customer validation questions: ~~pending~~ *(released in v1.0.2)*;
+*   Step-by-step user guide: ~~pending~~ *(released in v1.0.4)*;
+*   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing);
 *   Slide deck template for the Strategic Narrative Blueprint presentation.

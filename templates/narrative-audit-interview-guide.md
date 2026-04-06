@@ -109,3 +109,7 @@ After completing 5-10 interviews, map the recurring themes directly back into yo
 *   The market's reality is the only reality that matters.
 
 *This guide is part of the ALIGN Strategic Storytelling Framework by [diShine Digital Agency](https://dishine.it).*
+
+---
+
+> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.2: The External Validation**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
