@@ -6,7 +6,7 @@ The ALIGN framework is built on top of a "Narrative-First" strategy stack. It co
 
 ## 🏗 Strategy Stack
 
-- **Methodology Engine**: The 5-phase ALIGN process (Assess, Locate, Integrate, Grow, Nurture).
+- **Methodology Engine**: The 5-phase ALIGN process (Assess, Link, Integrate, Generate, Navigate).
 - **Core KPIs**: Narrative Coherence Score™, Brand Momentum Index, and Conversion Variance.
 - **Reporting Framework**: Markdown-based strategic briefs for asynchronous organizational alignment.
 - **Tools used in the process**: Prismo (System Audit), diShine Dashboard (MarTech Audit), and Narrative Scorecard templates.
