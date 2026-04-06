@@ -1,0 +1,31 @@
+flowchart TD
+    subgraph BEFORE["❌ BEFORE STATE (The Status Quo)"]
+        B1["External Problem\n(What they deal with)"]
+        B2["Internal Problem\n(How it makes them feel)"]
+        B3["Philosophical Problem\n(Why it's wrong)"]
+    end
+
+    subgraph VILLAIN["⚡ THE VILLAIN"]
+        V["The Enemy\n(The problem / outdated methodology\nthat keeps the Hero stuck)"]
+    end
+
+    subgraph GUIDE["🧭 YOUR BRAND (The Guide)"]
+        G1["Empathy\n(You understand their pain)"]
+        G2["Authority\n(You have the solution)"]
+        G3["The Unique Mechanism\n(Your proprietary approach)"]
+    end
+
+    subgraph AFTER["✅ AFTER STATE (The Transformation)"]
+        A1["External Success\n(What they achieve)"]
+        A2["Internal Success\n(How they feel)"]
+        A3["Philosophical Success\n(The new reality)"]
+    end
+
+    BEFORE --> VILLAIN
+    VILLAIN --> GUIDE
+    GUIDE --> AFTER
+
+    style BEFORE fill:#2d1b1b,color:#fff,stroke:#e94560
+    style VILLAIN fill:#1a1a2e,color:#fff,stroke:#e94560
+    style GUIDE fill:#0f3460,color:#fff,stroke:#4fc3f7
+    style AFTER fill:#1b2d1b,color:#fff,stroke:#66bb6a
