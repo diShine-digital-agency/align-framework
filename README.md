@@ -4,7 +4,11 @@
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
-The ALIGN Framework is a proprietary, open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.
+The ALIGN Framework is a "homemade" open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.
+
+We first introduced the ALIGN Framework over a year ago through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that powerful methodologies should be public—not just because "sharing is caring," but because we know that a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
+
+While our internal workflows have evolved into even more specialized, in-depth techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with a solid background in strategic communication and marketing performance.
 
 ---
 
