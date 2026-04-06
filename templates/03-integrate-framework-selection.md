@@ -1,34 +1,34 @@
 # Phase 3: INTEGRATE — Framework Selection & Customization Workbook
 
-**Version:** 1.0.1
+**Version:** 1.0.2
 
-The third phase of the ALIGN Framework involves selecting and integrating the optimal combination of storytelling frameworks based on your specific business context.
+The third phase of the ALIGN Framework bridges the gap between your high-level Strategic Narrative Blueprint (Phase 2) and your actual content production (Phase 4). It helps you choose the right structural "skeleton" for your story and map your blueprint elements onto it.
 
-This workbook bridges the gap between your high-level Strategic Narrative Blueprint (Phase 2) and your actual content production (Phase 4). It helps you choose the right structural "skeleton" for your story and map your blueprint elements onto it.
+This is not a creative exercise; it is an architectural decision. The framework you choose dictates the cognitive load you place on your buyer and the emotional levers you pull during the sales cycle.
 
 ---
 
-## Part 1: Framework Selection Diagnostic
+## Part 1: The Framework Selection Diagnostic Matrix
 
-Answer the following questions to determine which primary narrative framework best suits your current go-to-market motion.
+Do not guess which framework to use. Score your current go-to-market motion across these five dimensions to determine the optimal narrative architecture.
 
-### 1. Deal Complexity & Sales Cycle
-*   [ ] **A. Transactional:** Short sales cycle (< 30 days), single decision-maker, clear ROI.
-*   [ ] **B. Complex:** Long sales cycle (3-12+ months), buying committee (5+ people), requires organizational change management.
+| Dimension | Option A (Score: 1) | Option B (Score: 3) | Option C (Score: 5) | Your Score |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Deal Complexity** | Transactional (< 30 days, single buyer) | Mid-Market (1-3 months, 2-3 buyers) | Enterprise (6-18 months, 5+ buyers) | [ ] |
+| **2. Market Maturity** | Established Category (Buyers know what it is) | Emerging Category (Buyers are learning) | Category Creation (Buyers don't know they have a problem) | [ ] |
+| **3. Primary Objective** | Direct Response / Lead Gen | Brand Positioning / Differentiation | Thought Leadership / Market Education | [ ] |
+| **4. Buyer Psychology** | Seeking efficiency / cost reduction | Seeking growth / competitive advantage | Seeking risk mitigation / compliance | [ ] |
+| **5. Product Nature** | Point solution / Tool | Platform / System of Record | Methodology / Consulting / Transformation | [ ] |
+| **TOTAL SCORE** | | | | **[ / 25 ]** |
 
-### 2. Market Maturity
-*   [ ] **A. Established Category:** Buyers know what the software/service is; they are just comparing features and price.
-*   [ ] **B. Category Creation / Disruption:** Buyers don't know they have a problem, or they are using a fundamentally flawed legacy approach.
+### Scoring Interpretation & Selection
 
-### 3. Primary Marketing Objective
-*   [ ] **A. Direct Response / Lead Gen:** We need to capture attention quickly and drive immediate action (e.g., booking a demo).
-*   [ ] **B. Brand Positioning / Thought Leadership:** We need to establish authority, educate the market, and build long-term trust.
-
-### Scoring & Selection
-
-*   **Mostly A's:** Your primary framework should be **StoryBrand** or **Problem-Agitate-Solution (PAS)**. You need clarity, speed, and directness.
-*   **Mostly B's:** Your primary framework should be the **Hero's Journey (B2B Adaptation)**. You need to guide the buyer through a complex transformation and overcome internal resistance.
-*   **Mixed:** Use **StoryBrand** for your website homepage (clarity) and the **Hero's Journey** for your sales deck and thought leadership (depth).
+*   **5 - 11 Points: The Clarity Imperative (StoryBrand / PAS)**
+    Your buyers are making fast, functional decisions. They do not want a long journey; they want a quick fix. Use **StoryBrand** for your website to provide immediate clarity, and **Problem-Agitate-Solution (PAS)** for your outbound campaigns to drive urgency.
+*   **12 - 18 Points: The Hybrid Architecture**
+    You are selling a complex solution to a somewhat educated market. Use **StoryBrand** for your top-of-funnel assets (homepage, ads) to capture attention, but transition to the **Hero's Journey** for your mid-funnel assets (sales decks, webinars) to build consensus among the buying committee.
+*   **19 - 25 Points: The Transformational Journey (Hero's Journey)**
+    You are selling a paradigm shift. Your biggest competitor is not another vendor; it is the status quo. You must use the **Hero's Journey** to guide the buyer through the psychological resistance of organizational change.
 
 *(For a detailed breakdown of each framework, refer to the [Framework Comparison Matrix](../guides/framework-comparison-matrix.md).)*
 
@@ -38,35 +38,36 @@ Answer the following questions to determine which primary narrative framework be
 
 Once you have selected your primary framework, you must map the elements from your Strategic Narrative Blueprint (Phase 2) onto the specific stages of that framework.
 
-*Complete the section below that corresponds to your chosen primary framework.*
-
 ### Option A: Mapping to StoryBrand (For Clarity & Lead Gen)
 
-If you selected StoryBrand, map your blueprint elements here:
+If you scored 5-11, map your blueprint elements here. The goal is extreme cognitive ease.
 
-1.  **A Character:** (Insert your Hero/Target Audience from Phase 2)
-2.  **Has a Problem:** (Insert your Villain and the Internal/External problems from Phase 2)
-3.  **And Meets a Guide:** (Insert your Brand's Empathy and Authority statements)
-4.  **Who Gives Them a Plan:** (Break your Unique Mechanism down into 3 simple, actionable steps)
+1.  **A Character:** (Insert your Hero/Target Audience from Phase 2. Be specific: "VP of Marketing Ops," not "Marketers.")
+2.  **Has a Problem:**
+    *   *External:* (The functional issue: e.g., "Siloed data.")
+    *   *Internal:* (The emotional toll: e.g., "Anxiety before board meetings.")
+    *   *Philosophical:* (The injustice: e.g., "You shouldn't need a PhD in data science to know your ROI.")
+3.  **And Meets a Guide:** (Insert your Brand's Empathy and Authority statements. Prove you've solved this before.)
+4.  **Who Gives Them a Plan:** (Break your Unique Mechanism down into 3 simple, actionable steps. Reduce perceived risk.)
     *   Step 1:
     *   Step 2:
     *   Step 3:
-5.  **And Calls Them to Action:** (What is the specific, low-friction next step? e.g., "Get a Free Audit")
-6.  **That Helps Them Avoid Failure:** (What happens if they stay with the Villain/Status Quo?)
-7.  **And Ends in a Success:** (Insert your "After" state / External & Internal Success from Phase 2)
+5.  **And Calls Them to Action:** (What is the specific, low-friction next step? e.g., "Get a Free Audit," not "Learn More.")
+6.  **That Helps Them Avoid Failure:** (What happens if they stay with the Villain/Status Quo? Quantify the cost of inaction.)
+7.  **And Ends in a Success:** (Insert your "After" state / External & Internal Success from Phase 2.)
 
 ### Option B: Mapping to the Hero's Journey (For Complex Enterprise Sales)
 
-If you selected the Hero's Journey, map your blueprint elements to the critical buying stages:
+If you scored 19-25, map your blueprint elements to the critical buying stages. The goal is consensus building and risk mitigation.
 
-1.  **The Ordinary World (Status Quo):** (Describe the "Before" state in detail. What is the painful reality?)
-2.  **The Call to Adventure (The Trigger):** (What specific event forces them to look for a solution? e.g., a failed audit, a missed revenue target)
-3.  **Meeting the Mentor (Your Brand):** (How do you introduce your Unique Mechanism as the "Elixir"?)
-4.  **Tests, Allies, Enemies (The Buying Committee):**
-    *   Who is the internal Champion?
-    *   Who is the internal Detractor (e.g., IT, Legal)? How does your narrative address their specific fears?
-5.  **The Ordeal (Implementation):** (Acknowledge the difficulty of switching/implementing. How does your Guide role mitigate this risk?)
-6.  **Return with the Elixir (The Transformation):** (Describe the "After" state. How does the Champion look like a hero to their CEO?)
+1.  **The Ordinary World (Status Quo):** (Describe the "Before" state in detail. What is the painful reality they accept as normal?)
+2.  **The Call to Adventure (The Trigger):** (What specific event forces them to look for a solution? e.g., a failed audit, a missed revenue target, a new regulation.)
+3.  **Meeting the Mentor (Your Brand):** (How do you introduce your Unique Mechanism as the "Elixir" without sounding like a vendor?)
+4.  **Tests, Allies, Enemies (The Buying Committee Dynamics):**
+    *   *The Champion:* (Who is driving this? How does your narrative make them look like a hero internally?)
+    *   *The Detractor:* (Who will block this? e.g., IT, Legal, Finance. How does your narrative preemptively address their specific fears?)
+5.  **The Ordeal (Implementation):** (Acknowledge the difficulty of switching/implementing. Do not pretend it's easy. How does your Guide role mitigate this execution risk?)
+6.  **Return with the Elixir (The Transformation):** (Describe the "After" state. How does the organization operate differently now?)
 
 ---
 

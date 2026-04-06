@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.2] — 2026-04-06
+
+### Added
+
+*   `templates/narrative-audit-interview-guide.md` — a 20-question structured qualitative research guide for validating the Strategic Narrative Blueprint against real customer perception. Organized into four sections (Status Quo & Trigger, Search & Villain, Guide & Unique Mechanism, Transformation & After State), each question includes an *Analysis Note* explaining the cognitive bias or narrative element being tested and how the answer should inform the blueprint.
+
+### Changed
+
+*   `templates/03-integrate-framework-selection.md` — Phase 3 workbook substantially expanded with a five-dimension scoring matrix (replacing the previous three-question diagnostic) and a Hybrid Architecture recommendation for scores in the 12-18 range;
+*   `README.md` — updated to version 1.0.2, Phase 1 (Assess) description updated to include customer validation, Narrative Audit guide added to the repository structure and getting-started guide.
+
+---
+
 ## [1.0.1] — 2026-04-06
 
 ### Added
@@ -38,5 +51,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 *   Phase 3 (Integrate) worksheet: ~~a guided framework selection and customization workbook~~ *(released in v1.0.1)*;
 *   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing);
-*   A "Narrative Audit" interview guide with 20 customer validation questions;
+*   A "Narrative Audit" interview guide with 20 customer validation questions: ~~pending~~ *(released in v1.0.2)*;
 *   Slide deck template for the Strategic Narrative Blueprint presentation.

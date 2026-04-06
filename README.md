@@ -1,6 +1,6 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.0.1 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.0.2 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
@@ -26,11 +26,13 @@ The framework consists of five interconnected phases that guide organizations fr
 
 ### A — Assess: Narrative Ecosystem Mapping
 
-Map narrative gaps across all digital touchpoints. Identify story fragmentation, measure emotional impact, and evaluate competitive differentiation — establishing your baseline for strategic enhancement.
+Map narrative gaps across all digital touchpoints. Identify story fragmentation, measure emotional impact, and evaluate competitive differentiation — establishing your baseline for strategic enhancement. This phase also includes customer validation: interviewing recent wins and losses to verify that your internal narrative matches external market reality.
 
-**Output:** A **Narrative Coherence Score™ (0-100)** that quantifies the alignment between your current storytelling and ideal state.
+**Output:** A **Narrative Coherence Score™ (0-100)** that quantifies the alignment between your current storytelling and ideal state, validated against real customer interviews.
 
 **Tool:** [01-assess-narrative-scorecard.md](templates/01-assess-narrative-scorecard.md)
+
+**Interview Guide:** [narrative-audit-interview-guide.md](templates/narrative-audit-interview-guide.md)
 
 ---
 
@@ -91,7 +93,8 @@ align-framework/
 │   ├── 02-link-narrative-blueprint.md        ← Phase 2: Strategic Narrative Blueprint™
 │   ├── 03-integrate-framework-selection.md   ← Phase 3: Framework Selection Workbook
 │   ├── 04-generate-content-matrix.md         ← Phase 4: Content Narrative Matrix
-│   └── 05-navigate-measurement-dashboard.md  ← Phase 5: Narrative KPI Dashboard
+│   ├── 05-navigate-measurement-dashboard.md  ← Phase 5: Narrative KPI Dashboard
+│   └── narrative-audit-interview-guide.md    ← Customer Validation: 20-Question Interview Guide
 │
 ├── guides/
 │   └── framework-comparison-matrix.md     ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
@@ -108,7 +111,7 @@ align-framework/
 
 **Step 1 — Understand the landscape.** Read the [Framework Comparison Matrix](guides/framework-comparison-matrix.md) to understand the five core B2B storytelling frameworks and when to use each one.
 
-**Step 2 — Audit your current state.** Use the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to evaluate your existing website, sales deck, and marketing materials. Score each dimension honestly.
+**Step 2 — Audit your current state.** Use the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to evaluate your existing website, sales deck, and marketing materials. Score each dimension honestly. Then run the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md) with 5-10 recent customers to validate your assumptions against market reality.
 
 **Step 3 — Build your blueprint.** Gather your leadership team and complete the [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md). This is the most important step — everything else flows from it.
 
