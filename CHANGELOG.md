@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.1.0] — 2026-04-06
+
+### Added
+
+*   `tools/align-navigator.html` — a self-contained, single-file interactive tool that walks users through all five ALIGN phases in the browser. Includes the full Narrative Coherence Scorecard with live scoring and interpretation, the Strategic Narrative Blueprint worksheet, the framework selection diagnostic with automatic recommendation, a Pixar Pitch builder, the content narrative matrix planner, and a KPI dashboard setup. All data is auto-saved in local storage and can be exported as a markdown report or backed up as JSON.
+*   `.gitignore` — added standard ignore rules for OS files, editor directories, and temporary files.
+*   `CONTRIBUTING.md` — contribution guidelines covering fork/branch/PR workflow, writing standards, and issue reporting.
+
+### Changed
+
+*   `README.md` — updated to version 1.1.0; removed duplicate "Getting Started" section that repeated the "How to Use" content; tightened language throughout (replaced "powerful" with "effective," removed filler words); added `tools/` and `CONTRIBUTING.md` to the repository structure diagram.
+*   `INFRASTRUCTURE.md` — rewritten for clarity: removed internal tool references (Prismo, diShine Dashboard) that are not part of the public repository; cleaned up section headings (removed emoji, used sentence case); improved data handling guidance.
+*   All template and guide files — version numbers aligned to 1.1.0; minor language tightening (removed "truly" filler in the measurement dashboard, replaced "powerful asset" with "effective asset" in the scorecard interpretation).
+*   `CHANGELOG.md` — v1.1.0 entry added.
+
+---
+
 ## [1.0.5] — 2026-04-06
 
 ### Changed
@@ -90,5 +107,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 *   Phase 3 (Integrate) worksheet: ~~a guided framework selection and customization workbook~~ *(released in v1.0.1)*;
 *   A "Narrative Audit" interview guide with 20 customer validation questions: ~~pending~~ *(released in v1.0.2)*;
 *   Step-by-step user guide: ~~pending~~ *(released in v1.0.4)*;
+*   Interactive ALIGN navigator tool: ~~pending~~ *(released in v1.1.0)*;
 *   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing);
 *   Slide deck template for the Strategic Narrative Blueprint presentation.

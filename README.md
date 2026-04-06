@@ -26,6 +26,8 @@ The ALIGN Framework solves this by providing a structured, repeatable process fo
 
 For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each phase, and the strategic rationale behind every tool in this repository.
 
+**Prefer an interactive experience?** Open the **[ALIGN Navigator](tools/align-navigator.html)** in your browser — it walks you through all five phases with live scoring, form fields, and a one-click markdown export. No install required; everything runs locally in a single HTML file.
+
 In brief: start with the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to quantify your current narrative gaps, validate your findings with the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md), build the strategic foundation with the [Narrative Blueprint](templates/02-link-narrative-blueprint.md), select the right framework structure with the [Framework Selection Workbook](templates/03-integrate-framework-selection.md), deploy with the [Content Narrative Matrix](templates/04-generate-content-matrix.md), and measure impact with the [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md).
 
 ---
