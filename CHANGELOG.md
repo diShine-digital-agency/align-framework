@@ -6,6 +6,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.5] — 2026-04-06
+
+### Changed
+
+*   `assets/align-framework-overview.d2` and `.png` — framework overview diagram fully updated to reflect v1.0.4 content: all 9 tools are now listed within their respective phase boxes (① Narrative Coherence Scorecard, ② Narrative Audit Interview Guide, ③ Technical Analysis in Phase A; ④ Strategic Narrative Blueprint in Phase L; ⑤ Framework Selection Workbook, ⑥ Framework Comparison Matrix, ⑦ Pixar Pitch Synthesis in Phase I; ⑧ Content Narrative Matrix in Phase G; ⑨ Narrative KPI Dashboard in Phase N); a "Start Here" entry node pointing to the user guide has been added;
+*   `assets/heros-journey-b2b.mmd` and `.png` — Hero's Journey diagram rebuilt to map each of the 12 journey stages to the specific ALIGN tool and Interview Guide question range that corresponds to it; the five ALIGN phases are now shown as grouped subgraphs framing the journey stages;
+*   `assets/narrative-architecture.mmd` and `.png` — narrative architecture diagram updated to show the ALIGN tool that feeds each section (Scorecard + Interview Guide feed the Before State; Blueprint + Interview Guide Q6–Q10 feed the Villain; Framework Selection Workbook feeds the Unique Mechanism; KPI Dashboard and Content Matrix feed the After State);
+*   `README.md` — updated to version 1.0.5;
+*   `CHANGELOG.md` — v1.0.5 entry added.
+
+---
+
+## [1.0.4] — 2026-04-06
+
+### Added
+
+*   `guides/how-to-use-this-framework.md` — A comprehensive step-by-step user guide that maps the full ALIGN journey across five phases: (1) Assess (Narrative Coherence Scorecard + customer interviews); (2) Link (Strategic Narrative Blueprint with executive team); (3) Integrate (framework selection scoring matrix + element mapping + Pixar Pitch synthesis); (4) Generate (Content Narrative Matrix mapped to buyer journey stages); (5) Navigate (9-metric KPI dashboard with A/B testing guidance). Each step names the responsible owner (Founder, Head of Marketing, Content Team, RevOps) and explains the strategic and psychological rationale behind the action.
+
+### Changed
+
+*   All 8 template and guide files — a contextual "Framework Navigation" footer has been added to each file, identifying which ALIGN phase and step it belongs to and linking back to the step-by-step user guide;
+*   `README.md` — updated to version 1.0.4; "How to Use This Framework" section added after the Why section and before the 5 Phases; repository structure block updated to include the user guide; Getting Started section updated with a link to the full guide;
+*   `CHANGELOG.md` — v1.0.4 entry added.
+
+---  
+
 ## [1.0.3] — 2026-04-06
 
 ### Added
@@ -56,32 +82,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 *   `assets/align-framework-overview.png` — visual diagram of the five ALIGN phases;
 *   `assets/heros-journey-b2b.png` — B2B adaptation of the 12-stage Hero's Journey;
 *   `assets/narrative-architecture.png` — the Before/Villain/Guide/After transformation model.
-
----
-
-## [1.0.5] — 2026-04-06
-
-### Changed
-
-*   `assets/align-framework-overview.d2` and `.png` — framework overview diagram fully updated to reflect v1.0.4 content: all 9 tools are now listed within their respective phase boxes (① Narrative Coherence Scorecard, ② Narrative Audit Interview Guide, ③ Technical Analysis in Phase A; ④ Strategic Narrative Blueprint in Phase L; ⑤ Framework Selection Workbook, ⑥ Framework Comparison Matrix, ⑦ Pixar Pitch Synthesis in Phase I; ⑧ Content Narrative Matrix in Phase G; ⑨ Narrative KPI Dashboard in Phase N); a "Start Here" entry node pointing to the user guide has been added;
-*   `assets/heros-journey-b2b.mmd` and `.png` — Hero's Journey diagram rebuilt to map each of the 12 journey stages to the specific ALIGN tool and Interview Guide question range that corresponds to it; the five ALIGN phases are now shown as grouped subgraphs framing the journey stages;
-*   `assets/narrative-architecture.mmd` and `.png` — narrative architecture diagram updated to show the ALIGN tool that feeds each section (Scorecard + Interview Guide feed the Before State; Blueprint + Interview Guide Q6–Q10 feed the Villain; Framework Selection Workbook feeds the Unique Mechanism; KPI Dashboard and Content Matrix feed the After State);
-*   `README.md` — updated to version 1.0.5;
-*   `CHANGELOG.md` — v1.0.5 entry added.
-
----
-
-## [1.0.4] — 2026-04-06
-
-### Added
-
-*   `guides/how-to-use-this-framework.md` — A comprehensive step-by-step user guide that maps the full ALIGN journey across five phases: (1) Assess (Narrative Coherence Scorecard + customer interviews); (2) Link (Strategic Narrative Blueprint with executive team); (3) Integrate (framework selection scoring matrix + element mapping + Pixar Pitch synthesis); (4) Generate (Content Narrative Matrix mapped to buyer journey stages); (5) Navigate (9-metric KPI dashboard with A/B testing guidance). Each step names the responsible owner (Founder, Head of Marketing, Content Team, RevOps) and explains the strategic and psychological rationale behind the action.
-
-### Changed
-
-*   All 8 template and guide files — a contextual "Framework Navigation" footer has been added to each file, identifying which ALIGN phase and step it belongs to and linking back to the step-by-step user guide;
-*   `README.md` — updated to version 1.0.4; "How to Use This Framework" section added after the Why section and before the 5 Phases; repository structure block updated to include the user guide; Getting Started section updated with a link to the full guide;
-*   `CHANGELOG.md` — v1.0.4 entry added.
 
 ---
 
