@@ -1,6 +1,6 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.0.2 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.0.3 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
@@ -58,6 +58,8 @@ Select and customize the optimal combination of storytelling frameworks based on
 
 **Guide:** [framework-comparison-matrix.md](guides/framework-comparison-matrix.md)
 
+**Technical Analysis:** [narrative-audit-technical-analysis.md](guides/narrative-audit-technical-analysis.md) — the psychological principles (Status Quo Bias, Loss Aversion, Anchoring, Curse of Knowledge, Peak-End Rule) behind each of the 20 interview questions.
+
 ---
 
 ### G — Generate: Content Ecosystem Development
@@ -97,7 +99,8 @@ align-framework/
 │   └── narrative-audit-interview-guide.md    ← Customer Validation: 20-Question Interview Guide
 │
 ├── guides/
-│   └── framework-comparison-matrix.md     ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
+│   ├── framework-comparison-matrix.md              ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
+│   └── narrative-audit-technical-analysis.md       ← Psychological principles behind each interview question
 │
 └── assets/
     ├── align-framework-overview.png       ← ALIGN phases diagram
@@ -111,7 +114,7 @@ align-framework/
 
 **Step 1 — Understand the landscape.** Read the [Framework Comparison Matrix](guides/framework-comparison-matrix.md) to understand the five core B2B storytelling frameworks and when to use each one.
 
-**Step 2 — Audit your current state.** Use the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to evaluate your existing website, sales deck, and marketing materials. Score each dimension honestly. Then run the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md) with 5-10 recent customers to validate your assumptions against market reality.
+**Step 2 — Audit your current state.** Use the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to evaluate your existing website, sales deck, and marketing materials. Score each dimension honestly. Then run the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md) with 5-10 recent customers to validate your assumptions against market reality. For a deep understanding of the psychological principles behind each question, read the [Technical Analysis](guides/narrative-audit-technical-analysis.md).
 
 **Step 3 — Build your blueprint.** Gather your leadership team and complete the [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md). This is the most important step — everything else flows from it.
 

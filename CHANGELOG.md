@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.3] — 2026-04-06
+
+### Added
+
+*   `guides/narrative-audit-technical-analysis.md` — a detailed technical analysis of the psychological principles behind each of the 20 Narrative Audit interview questions. Covers Status Quo Bias and Loss Aversion (Section 1), Cognitive Framing and the Identifiable Villain Effect (Section 2), Authority Bias and the Halo Effect (Section 3), and the Peak-End Rule and Identity Shift (Section 4). Includes 13 academic references.
+
+### Changed
+
+*   `README.md` — updated to version 1.0.3; technical analysis added to the repository structure, Phase 3 (Integrate) description, and getting-started guide.
+
+---
+
 ## [1.0.2] — 2026-04-06
 
 ### Added
