@@ -1,6 +1,6 @@
 # B2B Storytelling Frameworks: A Comparative Guide
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 The strategic storytelling landscape offers numerous frameworks that can dramatically transform how organizations communicate their value. No single framework serves all strategic storytelling needs. The most effective approach often involves selecting the right framework—or combining elements from multiple frameworks—based on your specific business objectives, audience sophistication, and go-to-market strategy.
 

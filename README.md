@@ -1,14 +1,14 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.0.5 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.1.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
 The ALIGN Framework is a "homemade" open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.
 
-We first introduced the ALIGN Framework over a year ago through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that powerful methodologies should be public—not just because "sharing is caring," but because we know that a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
+We first introduced the ALIGN Framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public — not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
 
-While our internal workflows have evolved into even more specialized, in-depth techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with a solid background in strategic communication and marketing performance.
+While our internal workflows have evolved into more specialized techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with experience in strategic communication and marketing performance.
 
 ---
 
@@ -103,6 +103,10 @@ align-framework/
 ├── README.md                              ← This file
 ├── LICENSE
 ├── CHANGELOG.md
+├── CONTRIBUTING.md                        ← How to contribute
+│
+├── tools/
+│   └── align-navigator.html              ← Interactive ALIGN navigator (open in browser)
 │
 ├── templates/
 │   ├── 01-assess-narrative-scorecard.md      ← Phase 1: Narrative Coherence Scorecard™
@@ -122,14 +126,6 @@ align-framework/
     ├── heros-journey-b2b.png              ← Hero's Journey B2B adaptation
     └── narrative-architecture.png         ← Before/Villain/Guide/After model
 ```
-
----
-
-## Getting Started
-
-For the full walkthrough with rationale and ownership guidance, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**.
-
-In brief: begin with the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to establish your baseline, then validate against market reality with the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md). Build the strategic foundation with the [Narrative Blueprint](templates/02-link-narrative-blueprint.md), select the right framework structure using the [Framework Selection Workbook](templates/03-integrate-framework-selection.md), deploy across channels with the [Content Narrative Matrix](templates/04-generate-content-matrix.md), and measure impact with the [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md).
 
 ---
 

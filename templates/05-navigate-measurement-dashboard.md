@@ -1,6 +1,6 @@
 # Phase 5: NAVIGATE — Narrative Measurement Dashboard
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 The final phase of the ALIGN Framework involves rolling out your strategic narrative across channels and measuring its impact.
 
@@ -35,7 +35,7 @@ Many organizations struggle to measure the business impact of their storytelling
 
 ## A/B Testing the Narrative (Not Just Copy)
 
-To truly optimize your storytelling, you must test the structural elements of your narrative, not just the words used to express them.
+To optimize your storytelling, you must test the structural elements of your narrative, not just the words used to express them.
 
 *   **Test the Villain:** Does focusing on "Wasted Marketing Spend" perform better than "Inaccurate Attribution Data"?
 *   **Test the Hero's Journey Stage:** Does top-of-funnel content perform better when focused on the "Call to Adventure" (the trigger event) or the "Ordinary World" (the painful status quo)?

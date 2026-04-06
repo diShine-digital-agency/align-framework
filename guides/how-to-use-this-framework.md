@@ -1,6 +1,6 @@
 # How to Use the ALIGN Framework: A Step-by-Step Guide
 
-**Version:** 1.0.4
+**Version:** 1.1.0
 
 The ALIGN Framework is not a collection of isolated writing exercises; it is a sequential, operational engine designed to move a B2B company from "feature-led marketing" to "strategic narrative alignment." 
 

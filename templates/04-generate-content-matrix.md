@@ -1,6 +1,6 @@
 # Phase 4: GENERATE — Content Narrative Matrix
 
-**Version:** 1.0.0
+**Version:** 1.1.0
 
 The fourth phase of the ALIGN Framework focuses on creating the content assets needed to implement your strategic narrative across digital touchpoints.
 
