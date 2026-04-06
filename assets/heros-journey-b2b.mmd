@@ -1,28 +1,47 @@
 flowchart TD
-    A["🌍 1. Ordinary World\n(Status Quo — the customer's current painful reality)"]
-    B["📣 2. Call to Adventure\n(A triggering event forces recognition of the problem)"]
-    C["🚫 3. Refusal of the Call\n(Resistance to change: cost, disruption, uncertainty)"]
-    D["🤝 4. Meeting the Mentor\n(The customer discovers your brand via content or referral)"]
-    E["🚪 5. Crossing the Threshold\n(First commitment: demo request, trial, or pilot)"]
-    F["⚔️ 6. Tests, Allies, Enemies\n(Internal politics, IT security concerns, champions)"]
-    G["🏔️ 7. Approach to the Cave\n(The biggest implementation challenge looms)"]
-    H["🔥 8. Ordeal\n(Overcoming the core obstacle: migration, change management)"]
-    I["🏆 9. Reward\n(Initial success — the first win that validates the decision)"]
-    J["🔄 10. The Road Back\n(Integration into daily operations and workflows)"]
-    K["⚡ 11. Resurrection\n(Final challenge to full adoption and scale)"]
-    L["✨ 12. Return with the Elixir\n(Transformation complete — the customer becomes an advocate)"]
+    subgraph ASSESS["🔍 ALIGN Phase A — Assess"]
+        A1["🌍 1. Ordinary World\n(Status Quo — the customer's current painful reality)\n\n📋 Tool: Narrative Coherence Scorecard™\nScore your messaging across 4 dimensions"]
+        A2["📣 2. Call to Adventure\n(A triggering event forces recognition of the problem)\n\n🎤 Tool: Narrative Audit Interview Guide\nQ1–Q5: Uncover the exact trigger event & real competitor"]
+    end
 
-    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L
+    subgraph LINK["🔗 ALIGN Phase L — Link"]
+        L1["🚫 3. Refusal of the Call\n(Resistance to change: cost, disruption, uncertainty)\n\n📋 Tool: Strategic Narrative Blueprint™\nDefine the Villain that keeps the Hero stuck"]
+        L2["🤝 4. Meeting the Mentor\n(The customer discovers your brand via content or referral)\n\n📋 Blueprint: Empathy + Authority\nYou understand their pain AND have the solution"]
+    end
 
-    style A fill:#1a1a2e,color:#fff,stroke:#e94560,stroke-width:2px
-    style B fill:#16213e,color:#fff,stroke:#e94560,stroke-width:2px
-    style C fill:#0f3460,color:#fff,stroke:#e94560,stroke-width:2px
-    style D fill:#533483,color:#fff,stroke:#e94560,stroke-width:2px
-    style E fill:#e94560,color:#fff,stroke:#fff,stroke-width:2px
-    style F fill:#1a1a2e,color:#fff,stroke:#e94560,stroke-width:2px
-    style G fill:#16213e,color:#fff,stroke:#e94560,stroke-width:2px
-    style H fill:#0f3460,color:#fff,stroke:#e94560,stroke-width:2px
-    style I fill:#533483,color:#fff,stroke:#e94560,stroke-width:2px
-    style J fill:#e94560,color:#fff,stroke:#fff,stroke-width:2px
-    style K fill:#1a1a2e,color:#fff,stroke:#e94560,stroke-width:2px
-    style L fill:#533483,color:#fff,stroke:#e94560,stroke-width:2px
+    subgraph INTEGRATE["⚙️ ALIGN Phase I — Integrate"]
+        I1["🚪 5. Crossing the Threshold\n(First commitment: demo request, trial, or pilot)\n\n📊 Tool: Framework Selection Workbook\nChoose StoryBrand / Hero's Journey / Hybrid"]
+        I2["⚔️ 6. Tests, Allies, Enemies\n(Internal politics, IT security concerns, champions)\n\n📖 Guide: Framework Comparison Matrix\nMap your Unique Mechanism to the right structure"]
+    end
+
+    subgraph GENERATE["✍️ ALIGN Phase G — Generate"]
+        G1["🏔️ 7. Approach to the Cave\n(The biggest implementation challenge looms)\n\n📊 Tool: Content Narrative Matrix\nTop-of-funnel: Villain + Before State content"]
+        G2["🔥 8. Ordeal\n(Overcoming the core obstacle: migration, change management)\n\nContent: Case studies, ROI calculators, objection handling"]
+        G3["🏆 9. Reward\n(Initial success — the first win that validates the decision)\n\nContent: Testimonials, outcome stories, After State proof"]
+    end
+
+    subgraph NAVIGATE["📊 ALIGN Phase N — Navigate"]
+        N1["🔄 10. The Road Back\n(Integration into daily operations and workflows)\n\n📈 Tool: Narrative KPI Dashboard\nLeading indicators: Time on Site, Scroll Depth"]
+        N2["⚡ 11. Resurrection\n(Final challenge to full adoption and scale)\n\nLagging indicators: Sales Cycle Velocity, Win Rate"]
+        N3["✨ 12. Return with the Elixir\n(Transformation complete — the customer becomes an advocate)\n\n🎤 Interview Guide Q16–Q20: Capture the After State story\nFeed it back into Phase A for the next narrative cycle"]
+    end
+
+    A1 --> A2 --> L1 --> L2 --> I1 --> I2 --> G1 --> G2 --> G3 --> N1 --> N2 --> N3
+
+    style A1 fill:#1a1a2e,color:#fff,stroke:#e94560,stroke-width:2px
+    style A2 fill:#1a1a2e,color:#fff,stroke:#e94560,stroke-width:2px
+    style L1 fill:#16213e,color:#fff,stroke:#e94560,stroke-width:2px
+    style L2 fill:#16213e,color:#fff,stroke:#e94560,stroke-width:2px
+    style I1 fill:#0f3460,color:#fff,stroke:#e94560,stroke-width:2px
+    style I2 fill:#0f3460,color:#fff,stroke:#e94560,stroke-width:2px
+    style G1 fill:#533483,color:#fff,stroke:#e94560,stroke-width:2px
+    style G2 fill:#533483,color:#fff,stroke:#e94560,stroke-width:2px
+    style G3 fill:#533483,color:#fff,stroke:#e94560,stroke-width:2px
+    style N1 fill:#e94560,color:#fff,stroke:#fff,stroke-width:2px
+    style N2 fill:#e94560,color:#fff,stroke:#fff,stroke-width:2px
+    style N3 fill:#e94560,color:#fff,stroke:#fff,stroke-width:2px
+    style ASSESS fill:#0d0d1a,color:#fff,stroke:#e94560,stroke-width:2px
+    style LINK fill:#0d0d1a,color:#fff,stroke:#e94560,stroke-width:2px
+    style INTEGRATE fill:#0d0d1a,color:#fff,stroke:#e94560,stroke-width:2px
+    style GENERATE fill:#0d0d1a,color:#fff,stroke:#e94560,stroke-width:2px
+    style NAVIGATE fill:#0d0d1a,color:#fff,stroke:#e94560,stroke-width:2px

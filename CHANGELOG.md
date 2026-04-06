@@ -59,6 +59,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.5] — 2026-04-06
+
+### Changed
+
+*   `assets/align-framework-overview.d2` and `.png` — framework overview diagram fully updated to reflect v1.0.4 content: all 9 tools are now listed within their respective phase boxes (① Narrative Coherence Scorecard, ② Narrative Audit Interview Guide, ③ Technical Analysis in Phase A; ④ Strategic Narrative Blueprint in Phase L; ⑤ Framework Selection Workbook, ⑥ Framework Comparison Matrix, ⑦ Pixar Pitch Synthesis in Phase I; ⑧ Content Narrative Matrix in Phase G; ⑨ Narrative KPI Dashboard in Phase N); a "Start Here" entry node pointing to the user guide has been added;
+*   `assets/heros-journey-b2b.mmd` and `.png` — Hero's Journey diagram rebuilt to map each of the 12 journey stages to the specific ALIGN tool and Interview Guide question range that corresponds to it; the five ALIGN phases are now shown as grouped subgraphs framing the journey stages;
+*   `assets/narrative-architecture.mmd` and `.png` — narrative architecture diagram updated to show the ALIGN tool that feeds each section (Scorecard + Interview Guide feed the Before State; Blueprint + Interview Guide Q6–Q10 feed the Villain; Framework Selection Workbook feeds the Unique Mechanism; KPI Dashboard and Content Matrix feed the After State);
+*   `README.md` — updated to version 1.0.5;
+*   `CHANGELOG.md` — v1.0.5 entry added.
+
+---
+
 ## [1.0.4] — 2026-04-06
 
 ### Added

@@ -1,31 +1,39 @@
 flowchart TD
-    subgraph BEFORE["❌ BEFORE STATE (The Status Quo)"]
-        B1["External Problem\n(What they deal with)"]
-        B2["Internal Problem\n(How it makes them feel)"]
-        B3["Philosophical Problem\n(Why it's wrong)"]
+    subgraph TOOL_A["📋 ALIGN Tool: Narrative Coherence Scorecard™ + Interview Guide (Phase A)"]
+        direction LR
+        T1["Score current messaging\nacross 4 dimensions"]
+        T2["Validate with 5–10\ncustomer interviews\n(Q1–Q5: trigger events)"]
+    end
+
+    subgraph BEFORE["❌ BEFORE STATE — The Status Quo"]
+        B1["External Problem\n(The visible, day-to-day struggle)"]
+        B2["Internal Problem\n(The emotional toll it creates)"]
+        B3["Philosophical Problem\n(Why this situation is fundamentally wrong)"]
     end
 
     subgraph VILLAIN["⚡ THE VILLAIN"]
-        V["The Enemy\n(The problem / outdated methodology\nthat keeps the Hero stuck)"]
+        V["The Root Cause\n(The outdated methodology, broken process,\nor market force that keeps the Hero stuck)\n\n📋 Tool: Strategic Narrative Blueprint™ (Phase L)\nInterview Guide Q6–Q10: Identify the Villain\nin the customer's own language"]
     end
 
-    subgraph GUIDE["🧭 YOUR BRAND (The Guide)"]
-        G1["Empathy\n(You understand their pain)"]
-        G2["Authority\n(You have the solution)"]
-        G3["The Unique Mechanism\n(Your proprietary approach)"]
+    subgraph GUIDE["🧭 YOUR BRAND — The Guide"]
+        G1["Empathy\n(You understand their pain exactly)"]
+        G2["Authority\n(You have a proven path forward)"]
+        G3["The Unique Mechanism\n(Your proprietary approach — Phase I)\n📊 Framework Selection Workbook\nChoose StoryBrand / Hero's Journey / Hybrid"]
     end
 
-    subgraph AFTER["✅ AFTER STATE (The Transformation)"]
-        A1["External Success\n(What they achieve)"]
-        A2["Internal Success\n(How they feel)"]
-        A3["Philosophical Success\n(The new reality)"]
+    subgraph AFTER["✅ AFTER STATE — The Transformation"]
+        A1["External Success\n(Measurable outcomes achieved)\n📈 KPI Dashboard: Win Rate, Revenue Impact"]
+        A2["Internal Success\n(How the Champion feels — they became a hero)\n🎤 Interview Guide Q17: Personal reputation"]
+        A3["Philosophical Success\n(The new reality — the world is better)\n📊 Content Matrix: Advocacy content (Phase G)"]
     end
 
+    TOOL_A --> BEFORE
     BEFORE --> VILLAIN
     VILLAIN --> GUIDE
     GUIDE --> AFTER
 
-    style BEFORE fill:#2d1b1b,color:#fff,stroke:#e94560
-    style VILLAIN fill:#1a1a2e,color:#fff,stroke:#e94560
-    style GUIDE fill:#0f3460,color:#fff,stroke:#4fc3f7
-    style AFTER fill:#1b2d1b,color:#fff,stroke:#66bb6a
+    style BEFORE fill:#2d1b1b,color:#fff,stroke:#e94560,stroke-width:2px
+    style VILLAIN fill:#1a1a2e,color:#fff,stroke:#e94560,stroke-width:2px
+    style GUIDE fill:#0f3460,color:#fff,stroke:#4fc3f7,stroke-width:2px
+    style AFTER fill:#1b2d1b,color:#fff,stroke:#66bb6a,stroke-width:2px
+    style TOOL_A fill:#0d0d1a,color:#fff,stroke:#aaaaaa,stroke-width:1px,stroke-dasharray:5

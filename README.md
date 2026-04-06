@@ -1,6 +1,6 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.0.4 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.0.5 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
