@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.0.1] — 2026-04-06
+
+### Added
+
+*   `templates/03-integrate-framework-selection.md` — the Phase 3 (Integrate) Framework Selection & Customization Workbook, including a three-part diagnostic for selecting the right primary framework (StoryBrand vs. Hero's Journey), element-mapping worksheets for both frameworks, and a Pixar Pitch synthesis exercise with a worked example.
+
+### Changed
+
+*   `README.md` — updated to version 1.0.1, added Phase 3 workbook to the repository structure, phase description, and getting-started guide.
+
+---
+
 ## [1.0.0] — 2026-04-06
 
 ### Added
@@ -24,7 +36,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Upcoming]
 
-*   Phase 3 (Integrate) worksheet: a guided framework selection and customization workbook;
+*   Phase 3 (Integrate) worksheet: ~~a guided framework selection and customization workbook~~ *(released in v1.0.1)*;
 *   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing);
 *   A "Narrative Audit" interview guide with 20 customer validation questions;
 *   Slide deck template for the Strategic Narrative Blueprint presentation.

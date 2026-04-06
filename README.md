@@ -1,6 +1,6 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.0.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.0.1 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
@@ -52,6 +52,8 @@ Select and customize the optimal combination of storytelling frameworks based on
 
 ![Narrative Architecture](assets/narrative-architecture.png)
 
+**Workbook:** [03-integrate-framework-selection.md](templates/03-integrate-framework-selection.md)
+
 **Guide:** [framework-comparison-matrix.md](guides/framework-comparison-matrix.md)
 
 ---
@@ -85,10 +87,11 @@ align-framework/
 ├── CHANGELOG.md
 │
 ├── templates/
-│   ├── 01-assess-narrative-scorecard.md   ← Phase 1: Narrative Coherence Scorecard™
-│   ├── 02-link-narrative-blueprint.md     ← Phase 2: Strategic Narrative Blueprint™
-│   ├── 04-generate-content-matrix.md      ← Phase 4: Content Narrative Matrix
-│   └── 05-navigate-measurement-dashboard.md ← Phase 5: Narrative KPI Dashboard
+│   ├── 01-assess-narrative-scorecard.md      ← Phase 1: Narrative Coherence Scorecard™
+│   ├── 02-link-narrative-blueprint.md        ← Phase 2: Strategic Narrative Blueprint™
+│   ├── 03-integrate-framework-selection.md   ← Phase 3: Framework Selection Workbook
+│   ├── 04-generate-content-matrix.md         ← Phase 4: Content Narrative Matrix
+│   └── 05-navigate-measurement-dashboard.md  ← Phase 5: Narrative KPI Dashboard
 │
 ├── guides/
 │   └── framework-comparison-matrix.md     ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
@@ -109,7 +112,7 @@ align-framework/
 
 **Step 3 — Build your blueprint.** Gather your leadership team and complete the [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md). This is the most important step — everything else flows from it.
 
-**Step 4 — Select your framework.** Based on your business context, use the decision matrix in the [Framework Comparison Guide](guides/framework-comparison-matrix.md) to choose the right narrative structure.
+**Step 4 — Select and customize your framework.** Use the [Framework Selection Workbook](templates/03-integrate-framework-selection.md) to choose the right narrative structure and map your blueprint elements onto it. The [Framework Comparison Guide](guides/framework-comparison-matrix.md) provides the detailed breakdown of each option.
 
 **Step 5 — Plan your content.** Use the [Content Narrative Matrix](templates/04-generate-content-matrix.md) to map your narrative to channels and journey stages.
 
