@@ -1,4 +1,4 @@
-# Technical Analysis: The Psychology of the Narrative Audit
+# Technical analysis: the psychology of the narrative audit
 
 **Version:** 1.2.0
 
@@ -112,4 +112,4 @@ How an experience is remembered is dictated by the **Peak-End Rule** — people 
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.2: The External Validation (psychological analysis reference)**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.2: The External Validation (psychological analysis reference)**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).

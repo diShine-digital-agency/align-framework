@@ -91,4 +91,4 @@ Before finalizing this blueprint, validate it against these criteria:
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 2 — Link**, **Step 2.1: Build the Blueprint**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 2 — Link**, **Step 2.1: Build the Blueprint**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

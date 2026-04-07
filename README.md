@@ -14,13 +14,13 @@ While our internal workflows have evolved into more specialized techniques, the 
 
 ---
 
-## Why This Framework Exists
+## Why this framework exists
 
 Despite mountains of evidence showing storytelling's effectiveness, most B2B companies are stuck drowning prospects in feature lists and tech specs. The problem is not a lack of content — it is a lack of narrative architecture.
 
 When storytelling is not directly linked to business strategy, it becomes a creative exercise rather than a strategic asset. According to McKinsey, companies that align their narrative architecture with strategic priorities achieve **18% higher revenue growth** than those with disconnected approaches. Furthermore, a 2023 Forrester study found that only **23% of B2B marketers** can effectively measure the impact of their narrative approach on sales performance.
 
-The ALIGN Framework solves this by providing a structured, repeatable process for building, implementing, and measuring strategic narratives.
+The ALIGN framework solves this by providing a structured, repeatable process for building, implementing, and measuring strategic narratives.
 
 ---
 

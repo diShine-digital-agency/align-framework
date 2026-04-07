@@ -1,4 +1,4 @@
-# B2B Storytelling Frameworks: A Comparative Guide
+# B2B storytelling frameworks: a comparative guide
 
 **Version:** 1.2.0
 
@@ -113,4 +113,4 @@ This guide compares the five most effective B2B strategic storytelling framework
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Integrate**, **Step 3.1: Select the Framework (reference document)**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Integrate**, **Step 3.1: Select the Framework (reference document)**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).

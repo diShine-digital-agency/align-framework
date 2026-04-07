@@ -42,4 +42,4 @@ Every B2B company needs a foundational set of assets that consistently deliver t
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 4 — Generate**, **Step 4.1: Map Content to the Buyer Journey**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 4 — Generate**, **Step 4.1: Map Content to the Buyer Journey**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

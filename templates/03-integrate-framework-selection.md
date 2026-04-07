@@ -95,4 +95,4 @@ Once this workbook is complete, your narrative architecture is locked. You are n
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Integrate**, **Step 3.1: Select the Framework & Step 3.2: Map the Elements**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Integrate**, **Step 3.1: Select the Framework & Step 3.2: Map the Elements**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
