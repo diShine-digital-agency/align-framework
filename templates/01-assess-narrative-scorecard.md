@@ -1,6 +1,6 @@
 # Phase 1: ASSESS — Narrative Coherence Scorecard
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 The first phase of the ALIGN Framework involves comprehensive mapping of your current narrative ecosystem across digital touchpoints. This assessment examines Narrative Consistency, Message Hierarchy, Emotional Resonance, and Competitive Differentiation.
 
@@ -91,4 +91,4 @@ Does your story carve out a unique position in the market, or do you sound exact
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.1: The Internal Audit**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.1: The Internal Audit**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

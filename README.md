@@ -1,66 +1,76 @@
 # ALIGN — Strategic Storytelling Framework
 
-**Version:** 1.1.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.2.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
-The ALIGN Framework is a "homemade" open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.
+The ALIGN framework is an open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.
 
-We first introduced the ALIGN Framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public — not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
+We first introduced the ALIGN framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public — not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
 
 While our internal workflows have evolved into more specialized techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with experience in strategic communication and marketing performance.
 
+> **New to strategic storytelling?** Check the [glossary](GLOSSARY.md) for definitions of key terms used throughout this repository.
+
 ---
 
-## Why This Framework Exists
+## Why this framework exists
 
 Despite mountains of evidence showing storytelling's effectiveness, most B2B companies are stuck drowning prospects in feature lists and tech specs. The problem is not a lack of content — it is a lack of narrative architecture.
 
 When storytelling is not directly linked to business strategy, it becomes a creative exercise rather than a strategic asset. According to McKinsey, companies that align their narrative architecture with strategic priorities achieve **18% higher revenue growth** than those with disconnected approaches. Furthermore, a 2023 Forrester study found that only **23% of B2B marketers** can effectively measure the impact of their narrative approach on sales performance.
 
-The ALIGN Framework solves this by providing a structured, repeatable process for building, implementing, and measuring strategic narratives.
+The ALIGN framework solves this by providing a structured, repeatable process for building, implementing, and measuring strategic narratives.
 
 ---
 
-## How to Use This Framework
+## How to use this framework
 
-For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each phase, and the strategic rationale behind every tool in this repository.
+There are two ways to work through the ALIGN framework:
 
-**Prefer an interactive experience?** Open the **[ALIGN Navigator](tools/align-navigator.html)** in your browser — it walks you through all five phases with live scoring, form fields, and a one-click markdown export. No install required; everything runs locally in a single HTML file.
+1. **Read the guides and fill in the templates.** Start with the [step-by-step user guide](guides/how-to-use-this-framework.md), which covers the correct sequence, the responsible owner for each phase, and the strategic rationale behind every tool in this repository. Then work through the markdown templates one by one.
 
-In brief: start with the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) to quantify your current narrative gaps, validate your findings with the [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md), build the strategic foundation with the [Narrative Blueprint](templates/02-link-narrative-blueprint.md), select the right framework structure with the [Framework Selection Workbook](templates/03-integrate-framework-selection.md), deploy with the [Content Narrative Matrix](templates/04-generate-content-matrix.md), and measure impact with the [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md).
+2. **Use the ALIGN Navigator.** Open [`tools/align-navigator.html`](tools/align-navigator.html) in any browser for an interactive, guided experience. It covers all five phases with live scoring, form fields, auto-save, and one-click markdown export — no installation required.
+
+Both paths follow the same sequence: assess your current narrative with the [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md), validate findings through [customer interviews](templates/narrative-audit-interview-guide.md), build the strategic foundation with the [Narrative Blueprint](templates/02-link-narrative-blueprint.md), select the right framework structure with the [Framework Selection Workbook](templates/03-integrate-framework-selection.md), deploy with the [Content Narrative Matrix](templates/04-generate-content-matrix.md), and measure impact with the [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md).
+
+If any of those terms are unfamiliar, see the [glossary](GLOSSARY.md). For common questions, see the [FAQ](guides/faq.md).
 
 ---
 
-## The 5 Phases of ALIGN
+## The 5 phases of ALIGN
 
 ![ALIGN Framework Overview](assets/align-framework-overview.png)
 
 The framework consists of five interconnected phases that guide organizations from narrative assessment through implementation and optimization.
 
-### A — Assess: Narrative Ecosystem Mapping
+### A — Assess: narrative ecosystem mapping
 
 Map narrative gaps across all digital touchpoints. Identify story fragmentation, measure emotional impact, and evaluate competitive differentiation — establishing your baseline for strategic enhancement. This phase also includes customer validation: interviewing recent wins and losses to verify that your internal narrative matches external market reality.
 
-**Output:** A **Narrative Coherence Score™ (0-100)** that quantifies the alignment between your current storytelling and ideal state, validated against real customer interviews.
+**Output:** A **Narrative Coherence Score™ (0–100)** that quantifies the alignment between your current storytelling and ideal state, validated against real customer interviews.
 
-**Tool:** [01-assess-narrative-scorecard.md](templates/01-assess-narrative-scorecard.md)
-
-**Interview Guide:** [narrative-audit-interview-guide.md](templates/narrative-audit-interview-guide.md)
+**Tools:**
+- [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) — the scoring template.
+- [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md) — 20 customer validation questions.
+- [Technical Analysis](guides/narrative-audit-technical-analysis.md) — the psychological principles behind each interview question.
+- [ALIGN Navigator](tools/align-navigator.html) — interactive version with live scoring.
 
 ---
 
-### L — Link: Strategic-Narrative Alignment
+### L — Link: strategic-narrative alignment
 
 Align business strategy with storytelling architecture. Connect strategic priorities to narrative elements, ensuring every story component serves your core business objectives and customer needs.
 
 **Output:** A **Strategic Narrative Blueprint™** — the foundational document that dictates *what* you say, *why* you say it, and *how* it positions you in the market.
 
-**Tool:** [02-link-narrative-blueprint.md](templates/02-link-narrative-blueprint.md)
+**Tools:**
+- [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md) — the blueprint template.
+- [ALIGN Navigator](tools/align-navigator.html) — interactive blueprint worksheet.
 
 ---
 
-### I — Integrate: Framework Selection & Customization
+### I — Integrate: framework selection and customization
 
 Select and customize the optimal combination of storytelling frameworks based on your specific business context. Develop a cohesive narrative architecture that guides all communications.
 
@@ -68,44 +78,51 @@ Select and customize the optimal combination of storytelling frameworks based on
 
 ![Narrative Architecture](assets/narrative-architecture.png)
 
-**Workbook:** [03-integrate-framework-selection.md](templates/03-integrate-framework-selection.md)
-
-**Guide:** [framework-comparison-matrix.md](guides/framework-comparison-matrix.md)
-
-**Technical Analysis:** [narrative-audit-technical-analysis.md](guides/narrative-audit-technical-analysis.md) — the psychological principles (Status Quo Bias, Loss Aversion, Anchoring, Curse of Knowledge, Peak-End Rule) behind each of the 20 interview questions.
+**Tools:**
+- [Framework Selection Workbook](templates/03-integrate-framework-selection.md) — scoring matrix and element mapping.
+- [Framework Comparison Matrix](guides/framework-comparison-matrix.md) — detailed comparison of five B2B storytelling frameworks.
+- [Technical Analysis](guides/narrative-audit-technical-analysis.md) — the psychological principles (Status Quo Bias, Loss Aversion, Anchoring, Curse of Knowledge, Peak-End Rule) behind each of the 20 interview questions.
+- [ALIGN Navigator](tools/align-navigator.html) — interactive framework diagnostic with automatic recommendation.
 
 ---
 
-### G — Generate: Content Ecosystem Development
+### G — Generate: content ecosystem development
 
 Produce the strategic content assets needed to implement your narrative across digital touchpoints. Adapt core story elements across channels and journey stages while maintaining consistency.
 
 **Output:** A **Content Narrative Matrix** mapping messages to channels and journey stages.
 
-**Tool:** [04-generate-content-matrix.md](templates/04-generate-content-matrix.md)
+**Tools:**
+- [Content Narrative Matrix](templates/04-generate-content-matrix.md) — the planning template.
+- [ALIGN Navigator](tools/align-navigator.html) — interactive content matrix planner.
 
 ---
 
-### N — Navigate: Implementation & Optimization
+### N — Navigate: implementation and optimization
 
 Roll out your strategic narrative across channels, align teams, track performance metrics, and continuously refine based on market feedback and business outcomes.
 
 **Output:** A live **Narrative KPI Dashboard** connecting storytelling metrics to revenue outcomes.
 
-**Tool:** [05-navigate-measurement-dashboard.md](templates/05-navigate-measurement-dashboard.md)
+**Tools:**
+- [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md) — the measurement template.
+- [ALIGN Navigator](tools/align-navigator.html) — interactive KPI dashboard setup.
 
 ---
 
-## Repository Structure
+## Repository structure
 
-> **New to the framework?** Start with the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)** — it explains what to do, who should own it, and why it matters at each phase.
+> **New to the framework?** Start with the **[step-by-step user guide](guides/how-to-use-this-framework.md)** — it explains what to do, who should own it, and why it matters at each phase.
 
 ```
 align-framework/
 ├── README.md                              ← This file
-├── LICENSE
-├── CHANGELOG.md
+├── LICENSE                                ← MIT license
+├── CHANGELOG.md                           ← Version history (Keep a Changelog format)
 ├── CONTRIBUTING.md                        ← How to contribute
+├── CODE_OF_CONDUCT.md                     ← Community standards
+├── SECURITY.md                            ← Vulnerability reporting policy
+├── GLOSSARY.md                            ← Key terms defined for all audiences
 │
 ├── tools/
 │   └── align-navigator.html              ← Interactive ALIGN navigator (open in browser)
@@ -116,22 +133,26 @@ align-framework/
 │   ├── 03-integrate-framework-selection.md   ← Phase 3: Framework Selection Workbook
 │   ├── 04-generate-content-matrix.md         ← Phase 4: Content Narrative Matrix
 │   ├── 05-navigate-measurement-dashboard.md  ← Phase 5: Narrative KPI Dashboard
-│   └── narrative-audit-interview-guide.md    ← Customer Validation: 20-Question Interview Guide
+│   └── narrative-audit-interview-guide.md    ← Customer validation: 20-question interview guide
 │
 ├── guides/
-│   ├── how-to-use-this-framework.md                 ← Step-by-step user guide (start here)
-│   ├── framework-comparison-matrix.md              ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
-│   └── narrative-audit-technical-analysis.md       ← Psychological principles behind each interview question
+│   ├── how-to-use-this-framework.md          ← Step-by-step user guide (start here)
+│   ├── framework-comparison-matrix.md        ← Hero's Journey, StoryBrand, PAS, Pixar, JTBD
+│   ├── narrative-audit-technical-analysis.md ← Psychological principles behind each interview question
+│   └── faq.md                                ← Frequently asked questions
 │
 └── assets/
-    ├── align-framework-overview.png       ← ALIGN phases diagram
-    ├── heros-journey-b2b.png              ← Hero's Journey B2B adaptation
-    └── narrative-architecture.png         ← Before/Villain/Guide/After model
+    ├── align-framework-overview.d2           ← ALIGN phases diagram (D2 source)
+    ├── align-framework-overview.png          ← ALIGN phases diagram (rendered)
+    ├── heros-journey-b2b.mmd                 ← Hero's Journey B2B adaptation (Mermaid source)
+    ├── heros-journey-b2b.png                 ← Hero's Journey B2B adaptation (rendered)
+    ├── narrative-architecture.mmd            ← Before/Villain/Guide/After model (Mermaid source)
+    └── narrative-architecture.png            ← Before/Villain/Guide/After model (rendered)
 ```
 
 ---
 
-## The Science Behind It
+## The science behind it
 
 Strategic storytelling is not just marketing theory; it is rooted in neuroscience. When the brain processes conventional feature-benefit messaging, activity remains confined to language processing regions, creating purely analytical understanding without meaningful emotional engagement.
 
@@ -147,7 +168,7 @@ The Hero's Journey B2B adaptation:
 
 [diShine Digital Agency](https://dishine.it) is an Italian digital agency specializing in digital strategy, B2B growth architecture, and AI-powered workflows. We have been building low-code and no-code digital solutions for over a decade, working with clients across Europe.
 
-The ALIGN Framework was developed after analyzing dozens of B2B narrative structures and their measurable business impact. We use it with our own clients as the foundation for all narrative-driven engagements.
+The ALIGN framework was developed after analyzing dozens of B2B narrative structures and their measurable business impact. We use it with our own clients as the foundation for all narrative-driven engagements.
 
 ---
 

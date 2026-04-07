@@ -1,6 +1,6 @@
 # Narrative Audit: Customer Validation Interview Guide
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 The most dangerous assumption in B2B marketing is that your internal narrative matches your customer's external reality. The Narrative Audit is a structured qualitative research methodology designed to validate your Strategic Narrative Blueprint (Phase 2) against actual market perception.
 
@@ -112,4 +112,4 @@ After completing 5-10 interviews, map the recurring themes directly back into yo
 
 ---
 
-> **Framework Navigation:** This document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.2: The External Validation**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
+> **Framework navigation:** this document is part of the [ALIGN Strategic Storytelling Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess**, **Step 1.2: The External Validation**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
