@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: General questions
+    url: mailto:kevin@dishine.it
+    about: For questions about the framework or larger proposals, feel free to email us directly.
