@@ -1,6 +1,6 @@
 # Phase 5: NAVIGATE — Narrative Measurement Dashboard
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 The final phase of the ALIGN Framework involves rolling out your strategic narrative across channels and measuring its impact.
 

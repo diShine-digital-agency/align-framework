@@ -1,6 +1,6 @@
 # Technical Analysis: The Psychology of the Narrative Audit
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 The [Narrative Audit Interview Guide](../templates/narrative-audit-interview-guide.md) is not a standard customer satisfaction (CSAT) survey. It is a structured qualitative research instrument engineered to bypass post-rationalization and extract the true cognitive and emotional drivers of a B2B purchase decision.
 

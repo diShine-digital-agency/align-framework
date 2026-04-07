@@ -6,7 +6,36 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
-## [1.1.0] — 2026-04-06
+## [Upcoming]
+
+*   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing).
+*   Slide deck template for the Strategic Narrative Blueprint presentation.
+
+---
+
+## [1.2.0] — 2026-04-07
+
+### Added
+
+*   `SECURITY.md` — responsible disclosure policy for vulnerability reporting.
+*   `CODE_OF_CONDUCT.md` — dedicated community standards document, adapted from the Contributor Covenant.
+*   `GLOSSARY.md` — definitions of all key terms (framework, storytelling, business, and technical) for non-specialist readers.
+*   `guides/faq.md` — frequently asked questions covering getting started, tools, methodology, and contributing.
+*   `.github/ISSUE_TEMPLATE/bug-report.md` — structured bug report template.
+*   `.github/ISSUE_TEMPLATE/feature-request.md` — structured feature request template.
+*   `.github/ISSUE_TEMPLATE/config.yml` — issue template configuration with contact link.
+*   `.github/pull_request_template.md` — pull request template with phase checklist and writing standards reminder.
+
+### Changed
+
+*   `README.md` — version updated to 1.2.0; removed "homemade" phrasing; integrated the ALIGN Navigator naturally into each phase description (consolidated tool listings per phase instead of a separate callout); added glossary and FAQ links; fixed repository structure tree to include diagram source files (`.d2`, `.mmd`), new documents (`CODE_OF_CONDUCT.md`, `SECURITY.md`, `GLOSSARY.md`, `guides/faq.md`); applied sentence case to all headings for consistency.
+*   `INFRASTRUCTURE.md` — expanded from a brief overview to a comprehensive document covering all templates, guides, the ALIGN Navigator tool, and diagram assets in structured tables; added technology choices section explaining the intentional zero-dependency architecture; added data handling note for the ALIGN Navigator's local storage.
+*   `CONTRIBUTING.md` — added guidance on accessibility and audience awareness; linked to the new `CODE_OF_CONDUCT.md` instead of inline code of conduct section; added "Types of contributions" section; updated issue reporting to reference the new GitHub issue templates.
+*   `guides/how-to-use-this-framework.md` — version updated to 1.2.0; added ALIGN Navigator as an alternative tool reference in every phase step; added links to glossary and FAQ in the navigation footer; applied sentence case to all headings.
+*   `guides/framework-comparison-matrix.md` — version updated to 1.2.0; removed "dramatically transform" marketing language from the opening paragraph.
+*   All template files — version numbers updated to 1.2.0.
+*   `guides/narrative-audit-technical-analysis.md` — version updated to 1.2.0.
+*   `CHANGELOG.md` — moved "Upcoming" section to the top (per Keep a Changelog convention); cleaned up completed items; added v1.2.0 entry.
 
 ### Added
 
@@ -102,11 +131,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
-## [Upcoming]
-
-*   Phase 3 (Integrate) worksheet: ~~a guided framework selection and customization workbook~~ *(released in v1.0.1)*;
-*   A "Narrative Audit" interview guide with 20 customer validation questions: ~~pending~~ *(released in v1.0.2)*;
-*   Step-by-step user guide: ~~pending~~ *(released in v1.0.4)*;
-*   Interactive ALIGN navigator tool: ~~pending~~ *(released in v1.1.0)*;
-*   Industry-specific narrative playbooks (SaaS, Professional Services, Manufacturing);
-*   Slide deck template for the Strategic Narrative Blueprint presentation.
+## [1.1.0] — 2026-04-06

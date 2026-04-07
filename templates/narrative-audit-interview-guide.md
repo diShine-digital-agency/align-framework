@@ -1,6 +1,6 @@
 # Narrative Audit: Customer Validation Interview Guide
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 The most dangerous assumption in B2B marketing is that your internal narrative matches your customer's external reality. The Narrative Audit is a structured qualitative research methodology designed to validate your Strategic Narrative Blueprint (Phase 2) against actual market perception.
 

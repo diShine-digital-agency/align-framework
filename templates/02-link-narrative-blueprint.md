@@ -1,6 +1,6 @@
 # Phase 2: LINK — Strategic Narrative Blueprint™
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 The second phase of the ALIGN Framework connects your business strategy to your narrative architecture, ensuring your storytelling supports core strategic objectives.
 
