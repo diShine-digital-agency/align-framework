@@ -13,6 +13,63 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.3.0] — 2026-04-08
+
+### Added
+
+*   `wiki/` — comprehensive GitHub Wiki (31 pages) covering the ALIGN methodology, scientific foundations, strategic storytelling principles, AI compliance, and reference materials. Pages are organized in six sections: the framework (7 pages), the repository (2 pages), strategic storytelling (9 pages), the science (6 pages), AI compliance (3 pages), and reference (2 pages), plus sidebar and footer navigation.
+*   `.github/workflows/sync-wiki.yml` — GitHub Actions workflow that automatically syncs wiki source files from the `wiki/` directory to the repository's GitHub Wiki on push to `main` or via manual dispatch.
+
+### Wiki pages
+
+**The framework:**
+*   `wiki/Home.md` — wiki landing page with organized navigation to all 31 pages.
+*   `wiki/The-ALIGN-framework.md` — what ALIGN is, why it exists, and how its five phases connect.
+*   `wiki/Phase-1-Assess.md` — narrative ecosystem mapping and the Narrative Coherence Score™.
+*   `wiki/Phase-2-Link.md` — strategic-narrative alignment and the Strategic Narrative Blueprint™.
+*   `wiki/Phase-3-Integrate.md` — framework selection, customization, and narrative architecture.
+*   `wiki/Phase-4-Generate.md` — content ecosystem development and the Content Narrative Matrix.
+*   `wiki/Phase-5-Navigate.md` — implementation, measurement, and the Narrative KPI Dashboard.
+
+**The repository:**
+*   `wiki/Repository-structure-and-tools.md` — what each file does and how the repo is organized.
+*   `wiki/ALIGN-Navigator-guide.md` — how to use the interactive browser-based tool.
+
+**Strategic storytelling:**
+*   `wiki/What-is-strategic-storytelling.md` — definitions, historical roots, and the five elements of a strategic narrative.
+*   `wiki/The-psychology-of-persuasion-through-narrative.md` — narrative transportation, the Elaboration Likelihood Model, Cialdini's principles, and ethical boundaries.
+*   `wiki/Corporate-communications-and-narrative-strategy.md` — how strategic storytelling applies across investor relations, internal comms, crisis comms, and employer branding.
+*   `wiki/Storytelling-best-practices-for-B2B.md` — practical, actionable guidance for B2B narrative implementation.
+*   `wiki/Brand-positioning-through-narrative.md` — how narrative structure creates defensible market positioning.
+*   `wiki/Content-strategy-and-narrative-consistency.md` — maintaining narrative coherence across content operations and channels.
+*   `wiki/Storytelling-across-the-buyer-journey.md` — mapping narrative elements to awareness, consideration, decision, and retention stages.
+*   `wiki/Case-study-storytelling.md` — structuring case studies as narratives rather than feature demonstrations.
+*   `wiki/Internal-narrative-alignment.md` — aligning sales, marketing, product, and leadership around a shared strategic narrative.
+
+**The science:**
+*   `wiki/The-neuroscience-of-strategic-storytelling.md` — neural coupling, brain synchronization, and why stories outperform feature lists.
+*   `wiki/Behavioral-economics-in-B2B-decisions.md` — cognitive biases that shape buying behavior and how strategic narratives leverage them.
+*   `wiki/Storytelling-frameworks-compared.md` — Hero's Journey, StoryBrand, PAS, Pixar Pitch, and JTBD compared in depth.
+*   `wiki/The-narrative-audit-methodology.md` — the psychology behind the 20-question customer validation interview.
+*   `wiki/B2B-narrative-architecture.md` — how to structure narratives for complex business environments.
+*   `wiki/Measuring-narrative-impact.md` — KPIs, attribution, and connecting storytelling to revenue.
+
+**AI compliance:**
+*   `wiki/AI-compliance-in-corporate-communications.md` — overview of regulations affecting AI-assisted content creation.
+*   `wiki/EU-AI-Act-and-strategic-storytelling.md` — how the EU AI Act (Regulation 2024/1689) applies to narrative and content operations.
+*   `wiki/AI-generated-content-disclosure-and-ethics.md` — FTC guidelines, transparency obligations, and best practices.
+
+**Reference:**
+*   `wiki/Glossary.md` — definitions of all terms used across the framework and this wiki.
+*   `wiki/References-and-further-reading.md` — academic papers, books, and regulatory sources cited throughout this wiki.
+
+### Changed
+
+*   `wiki/AI-compliance-in-corporate-communications.md` — fixed incorrect ALIGN phase names ("Audit, Landscape, Insight, Generate, Narrate" corrected to "Assess, Link, Integrate, Generate, Navigate") and corrected phase descriptions.
+*   `wiki/Phase-4-Generate.md`, `wiki/Storytelling-frameworks-compared.md`, `wiki/The-narrative-audit-methodology.md` — replaced marketing fluff language ("powerful") with precise, factual alternatives.
+
+---
+
 ## [1.2.0] — 2026-04-07
 
 ### Added

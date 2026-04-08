@@ -20,6 +20,10 @@
 - [Corporate comms and narrative](Corporate-communications-and-narrative-strategy)
 - [B2B storytelling best practices](Storytelling-best-practices-for-B2B)
 - [Brand positioning through narrative](Brand-positioning-through-narrative)
+- [Content strategy and consistency](Content-strategy-and-narrative-consistency)
+- [Storytelling across the journey](Storytelling-across-the-buyer-journey)
+- [Case study storytelling](Case-study-storytelling)
+- [Internal narrative alignment](Internal-narrative-alignment)
 
 **The science**
 - [Neuroscience of storytelling](The-neuroscience-of-strategic-storytelling)

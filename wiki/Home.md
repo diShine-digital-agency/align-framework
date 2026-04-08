@@ -29,6 +29,10 @@ This wiki serves as a comprehensive reference companion to the [main repository]
 - **[Corporate communications and narrative strategy](Corporate-communications-and-narrative-strategy)** — how strategic storytelling applies across investor relations, internal comms, crisis comms, and employer branding.
 - **[Storytelling best practices for B2B](Storytelling-best-practices-for-B2B)** — practical, actionable guidance for B2B narrative implementation.
 - **[Brand positioning through narrative](Brand-positioning-through-narrative)** — how narrative structure creates defensible market positioning.
+- **[Content strategy and narrative consistency](Content-strategy-and-narrative-consistency)** — maintaining narrative coherence across content operations and channels.
+- **[Storytelling across the buyer journey](Storytelling-across-the-buyer-journey)** — mapping narrative elements to awareness, consideration, decision, and retention stages.
+- **[Case study storytelling](Case-study-storytelling)** — structuring case studies as narratives rather than feature demonstrations.
+- **[Internal narrative alignment](Internal-narrative-alignment)** — aligning sales, marketing, product, and leadership around a shared strategic narrative.
 
 ### The science
 

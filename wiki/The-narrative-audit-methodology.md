@@ -222,7 +222,7 @@ The Strategic Narrative Blueprint™ contains the core narrative elements: the v
 
 - **Does the blueprint's guide positioning match the buyer's perception of your brand?** If your blueprint positions you as "the empathetic partner" but buyers describe you as "the technically rigorous experts," the blueprint's guide persona needs adjustment. You cannot successfully claim an identity that the market does not grant you.
 
-- **Does the blueprint's transformation match the buyer's experienced transformation?** If your blueprint promises "strategic decision-making" but buyers describe the value as "not having to stay late on Sundays pulling reports," the blueprint is operating at the wrong altitude. The buyer's concrete, specific language is more powerful than the blueprint's abstract aspiration.
+- **Does the blueprint's transformation match the buyer's experienced transformation?** If your blueprint promises "strategic decision-making" but buyers describe the value as "not having to stay late on Sundays pulling reports," the blueprint is operating at the wrong altitude. The buyer's concrete, specific language is more effective than the blueprint's abstract aspiration.
 
 ### The cardinal rule
 
