@@ -8,8 +8,21 @@ on:
       - 'wiki/**'
   workflow_dispatch:
 
+# Note: this workflow requires a Personal Access Token (PAT) stored as
+# a repository secret named WIKI_TOKEN. The default GITHUB_TOKEN does not
+# have permission to push to the .wiki.git repository.
+#
+# To set this up:
+# 1. Go to https://github.com/settings/tokens and create a fine-grained PAT
+#    with "Contents: Read and write" permission scoped to this repository.
+# 2. In this repository, go to Settings → Secrets and variables → Actions.
+# 3. Create a new repository secret named WIKI_TOKEN with the PAT value.
+# 4. The wiki must be initialized first: go to the repository Wiki tab,
+#    create any initial page (it can be blank), then save it. This creates
+#    the .wiki.git repository that this workflow pushes to.
+
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   sync-wiki:
@@ -20,14 +33,20 @@ jobs:
 
       - name: Sync wiki pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
         run: |
+          # Fail early if the secret is not configured
+          if [ -z "${WIKI_TOKEN}" ]; then
+            echo "::error::WIKI_TOKEN secret is not set. See workflow comments for setup instructions."
+            exit 1
+          fi
+
           # Configure git identity
           git config --global user.name "diShine digital agency"
           git config --global user.email "kevin@dishine.it"
 
-          # Clone the wiki repository (creates it if first push)
-          git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.wiki.git" wiki-repo
+          # Clone the wiki repository
+          git clone "https://x-access-token:${WIKI_TOKEN}@github.com/${{ github.repository }}.wiki.git" wiki-repo
 
           # Remove all existing wiki pages so deleted files are also removed
           rm -f wiki-repo/*.md

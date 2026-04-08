@@ -67,6 +67,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 *   `wiki/AI-compliance-in-corporate-communications.md` — fixed incorrect ALIGN phase names ("Audit, Landscape, Insight, Generate, Narrate" corrected to "Assess, Link, Integrate, Generate, Navigate") and corrected phase descriptions.
 *   `wiki/Phase-4-Generate.md`, `wiki/Storytelling-frameworks-compared.md`, `wiki/The-narrative-audit-methodology.md` — replaced marketing fluff language ("powerful") with precise, factual alternatives.
+*   `wiki/Glossary.md` — renamed "KPI dashboard (narrative)" entry to "Narrative KPI Dashboard" for consistency with Phase 5 terminology; expanded definition to list all nine metrics and three tiers.
+*   `wiki/References-and-further-reading.md` — added Zak (2015) *Cerebrum* citation that was referenced in the neuroscience page but missing from the bibliography.
+*   `.github/workflows/sync-wiki.yml` — replaced `GITHUB_TOKEN` (which cannot push to `.wiki.git` repos) with a `WIKI_TOKEN` secret; added early-exit guard if the secret is missing; added setup instructions as inline comments; changed permissions from `contents: write` to `contents: read`.
 
 ---
 

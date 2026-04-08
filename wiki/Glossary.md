@@ -135,8 +135,8 @@ A framework originated by Clayton Christensen that focuses on the "job" a custom
 
 ## K
 
-**KPI dashboard (narrative)**
-A measurement tool that tracks the nine ALIGN KPI metrics organized in three tiers — narrative consistency, engagement and resonance, and business outcomes. See [Measuring narrative impact](Measuring-narrative-impact).
+**Narrative KPI Dashboard**
+The measurement tool produced in [Phase 5: Navigate](Phase-5-Navigate) that tracks the nine ALIGN KPI metrics organized in three tiers: narrative consistency (Message Pull-Through Rate, Content Coherence Score, Narrative Adoption Rate), engagement and resonance (Time on Page, Narrative-Led Conversion Rate, Qualitative Feedback Score), and business outcomes (Sales Cycle Velocity, Win Rate in Competitive Deals, Customer Acquisition Cost). The dashboard provides a structured quarterly review cadence for assessing narrative effectiveness. See [Measuring narrative impact](Measuring-narrative-impact).
 
 ---
 

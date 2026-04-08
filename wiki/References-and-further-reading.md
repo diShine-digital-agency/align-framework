@@ -17,6 +17,9 @@ The original fMRI study demonstrating that successful communication involves neu
 **Zak, P. J. (2014).** Why your brain loves good stories. *Harvard Business Review*, October 2014.
 Reports research showing that character-driven stories with emotional tension increase oxytocin production, which correlates with empathy and cooperative behavior. Provides the neurochemical basis for narrative persuasion. Discussed in [The neuroscience of strategic storytelling](The-neuroscience-of-strategic-storytelling).
 
+**Zak, P. J. (2015).** Why inspiring stories make us react: The neuroscience of narrative. *Cerebrum*, 2015(2).
+Extends the oxytocin research with controlled experiments demonstrating that narratives with dramatic arc produce measurable neurochemical changes (cortisol during tension, oxytocin during resolution), while descriptive content about the same subjects produces no significant change. Discussed in [The neuroscience of strategic storytelling](The-neuroscience-of-strategic-storytelling) and [What is strategic storytelling](What-is-strategic-storytelling).
+
 **Green, M. C., & Brock, T. C. (2000).** The role of transportation in the persuasiveness of public narratives. *Journal of Personality and Social Psychology (JPSP)*, 79(5), 701–721.
 Defines and validates the concept of "narrative transportation" — the state of being absorbed in a story — and demonstrates that transported audiences are more likely to adopt story-consistent beliefs. Discussed in [The neuroscience of strategic storytelling](The-neuroscience-of-strategic-storytelling) and defined in the [Glossary](Glossary).
 
