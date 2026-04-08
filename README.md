@@ -1,7 +1,7 @@
 # ALIGN — Strategic Storytelling Framework
 
 <p align="center">
-  <img src="assets/images/align_03_blueprint_worksession.webp" alt="ALIGN blueprint worksession" width="65%">
+  <img src="assets/images/align_03_blueprint_worksession.webp" alt="ALIGN blueprint worksession" width="100%">
 </p>
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
