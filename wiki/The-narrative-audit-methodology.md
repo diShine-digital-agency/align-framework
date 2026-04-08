@@ -90,7 +90,7 @@ In practice:
 - **Interviewer:** "How did that make you feel personally?"
 - **Buyer:** "Honestly? Exposed. I knew the numbers but I couldn't prove them, and I was afraid that if I couldn't show the board we were tracking these things, they'd bring in someone who could."
 
-The fifth answer — the fear of being replaced — is the actual narrative driver. It is personal, emotional, and unrelated to "reporting capabilities." A narrative built around "powerful real-time dashboards" speaks to the functional need. A narrative built around "never being caught without the answer your board is asking for" speaks to the emotional and social reality of the decision.
+The fifth answer — the fear of being replaced — is the actual narrative driver. It is personal, emotional, and unrelated to "reporting capabilities." A narrative built around "real-time dashboards with full reporting visibility" speaks to the functional need. A narrative built around "never being caught without the answer your board is asking for" speaks to the emotional and social reality of the decision.
 
 ### Silence as a tool
 

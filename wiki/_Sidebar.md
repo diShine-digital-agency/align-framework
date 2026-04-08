@@ -14,6 +14,13 @@
 - [Repository structure and tools](Repository-structure-and-tools)
 - [ALIGN Navigator guide](ALIGN-Navigator-guide)
 
+**Strategic storytelling**
+- [What is strategic storytelling](What-is-strategic-storytelling)
+- [Psychology of persuasion](The-psychology-of-persuasion-through-narrative)
+- [Corporate comms and narrative](Corporate-communications-and-narrative-strategy)
+- [B2B storytelling best practices](Storytelling-best-practices-for-B2B)
+- [Brand positioning through narrative](Brand-positioning-through-narrative)
+
 **The science**
 - [Neuroscience of storytelling](The-neuroscience-of-strategic-storytelling)
 - [Behavioral economics in B2B](Behavioral-economics-in-B2B-decisions)

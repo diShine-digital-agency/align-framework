@@ -12,7 +12,7 @@ The regulatory environment is evolving rapidly. As of early 2026, some framework
 
 ## Why AI compliance matters for strategic storytelling
 
-The ALIGN framework is methodology-driven and does not prescribe specific AI tools. It provides a structured process — Audit, Landscape, Insight, Generate, Narrate — for developing strategic narratives. However, many teams implementing the framework will use AI assistance at various stages: research and competitive analysis (Phase 2: Landscape), insight synthesis (Phase 3: Insight), content generation (Phase 4: Generate), or drafting and refinement (Phase 5: Narrate).
+The ALIGN framework is methodology-driven and does not prescribe specific AI tools. It provides a structured process — Assess, Link, Integrate, Generate, Navigate — for developing strategic narratives. However, many teams implementing the framework will use AI assistance at various stages: narrative assessment and scoring (Phase 1: Assess), strategic-narrative alignment (Phase 2: Link), framework selection and architecture (Phase 3: Integrate), content ecosystem development (Phase 4: Generate), or implementation and measurement (Phase 5: Navigate).
 
 When AI tools are used in any of these phases, the resulting content may trigger regulatory obligations. These obligations exist regardless of which AI tool is used or how extensively it is employed. A blog post drafted by a large language model and then edited by a human may still require disclosure. A social media image created with a generative AI tool may need labeling. A chatbot interacting with customers on a corporate website almost certainly requires transparency measures.
 

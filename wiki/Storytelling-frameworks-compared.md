@@ -125,7 +125,7 @@ Miller is careful to distinguish between articulating failure and manufacturing 
 
 ### Why StoryBrand works
 
-StoryBrand works because it enforces radical clarity. The framework's primary contribution is not its narrative structure (which is a simplified Hero's Journey) but its discipline: it forces companies to stop talking about themselves and start talking about the customer's problem. This is psychologically powerful because it aligns with how the brain processes relevance. Information is processed more deeply when it is perceived as personally relevant — a phenomenon documented in self-referential encoding research (Rogers, Kuiper & Kirker, 1977).
+StoryBrand works because it enforces radical clarity. The framework's primary contribution is not its narrative structure (which is a simplified Hero's Journey) but its discipline: it forces companies to stop talking about themselves and start talking about the customer's problem. This is effective because it aligns with how the brain processes relevance. Information is processed more deeply when it is perceived as personally relevant — a phenomenon documented in self-referential encoding research (Rogers, Kuiper & Kirker, 1977).
 
 StoryBrand also exploits cognitive fluency — the finding that information that is easy to process feels more true and more trustworthy (Alter & Oppenheimer, 2009). By reducing messaging to seven clear elements and insisting on short, jargon-free language, StoryBrand produces communication that is easy to process and therefore more persuasive. This is particularly valuable in B2B, where messaging tends toward technical density and insider jargon.
 

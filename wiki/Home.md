@@ -22,6 +22,14 @@ This wiki serves as a comprehensive reference companion to the [main repository]
 - **[Repository structure and tools](Repository-structure-and-tools)** — what each file does and how the repo is organized.
 - **[ALIGN Navigator guide](ALIGN-Navigator-guide)** — how to use the interactive browser-based tool.
 
+### Strategic storytelling
+
+- **[What is strategic storytelling](What-is-strategic-storytelling)** — definitions, historical roots, and the five elements of a strategic narrative.
+- **[The psychology of persuasion through narrative](The-psychology-of-persuasion-through-narrative)** — narrative transportation, the Elaboration Likelihood Model, Cialdini's principles, and ethical boundaries.
+- **[Corporate communications and narrative strategy](Corporate-communications-and-narrative-strategy)** — how strategic storytelling applies across investor relations, internal comms, crisis comms, and employer branding.
+- **[Storytelling best practices for B2B](Storytelling-best-practices-for-B2B)** — practical, actionable guidance for B2B narrative implementation.
+- **[Brand positioning through narrative](Brand-positioning-through-narrative)** — how narrative structure creates defensible market positioning.
+
 ### The science
 
 - **[The neuroscience of strategic storytelling](The-neuroscience-of-strategic-storytelling)** — neural coupling, brain synchronization, and why stories outperform feature lists.

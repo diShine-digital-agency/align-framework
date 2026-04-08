@@ -32,7 +32,7 @@ At the awareness stage, the buyer does not yet know they have a problem — or t
 
 **Primary blueprint elements:** Villain definition, before state.
 
-The villain is the most powerful narrative element at the awareness stage. It names the flawed methodology, outdated assumption, or structural limitation that is causing the buyer's pain — often a pain the buyer has accepted as normal. The before state makes this pain specific and recognizable.
+The villain is the most effective narrative element at the awareness stage. It names the flawed methodology, outdated assumption, or structural limitation that is causing the buyer's pain — often a pain the buyer has accepted as normal. The before state makes this pain specific and recognizable.
 
 **Content formats:**
 
