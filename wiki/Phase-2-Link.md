@@ -232,7 +232,7 @@ Teams consistently define the external problem (what the customer is dealing wit
 
 ### Treating the blueprint as a copywriting exercise
 
-The Strategic Narrative Blueprint™ is a strategic document, not a creative brief. It should be written in clear, direct language — not in polished marketing copy. If the blueprint reads like a homepage, it is operating at the wrong level of abstraction. The blueprint defines the strategic architecture. Copywriters translate that architecture into channel-specific language in [Phase 3: Integrate](Phase-3-Integrate) and Phase 4: Generate. Mixing the two produces a document that is too polished to be strategically useful and too strategic to be directly deployable.
+The Strategic Narrative Blueprint™ is a strategic document, not a creative brief. It should be written in clear, direct language — not in polished marketing copy. If the blueprint reads like a homepage, it is operating at the wrong level of abstraction. The blueprint defines the strategic architecture. Copywriters translate that architecture into channel-specific language in [Phase 3: Integrate](Phase-3-Integrate) and [Phase 4: Generate](Phase-4-Generate). Mixing the two produces a document that is too polished to be strategically useful and too strategic to be directly deployable.
 
 ### Building the blueprint without executive alignment
 
