@@ -191,9 +191,11 @@ The Hero's Journey B2B adaptation:
 
 ## About diShine
 
-[diShine Digital Agency](https://dishine.it) is an Italian digital agency specializing in digital strategy, B2B growth architecture, and AI-powered workflows. We have been building low-code and no-code digital solutions for over a decade, working with clients across Europe.
+[diShine](https://dishine.it) is a creative tech agency based in Milan. We create digital strategies, design process and build tools for clients, help businesses with AI strategy and MarTech architecture, and open-source some things we wish existed.
 
-The ALIGN framework was developed after analyzing dozens of B2B narrative structures and their measurable business impact. We use it with our own clients as the foundation for all narrative-driven engagements.
+- Web: [dishine.it](https://dishine.it)
+- GitHub: [github.com/diShine-digital-agency](https://github.com/diShine-digital-agency)
+- Contact: kevin@dishine.it
 
 ---
 
