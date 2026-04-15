@@ -1,4 +1,4 @@
-# 🌟 ALIGN Storytelling Framework: driving B2B/B2C growth through narrative architecture
+# 📣 ALIGN Storytelling Framework: driving B2B/B2C growth through narrative architecture
 
 <div align="center">
   
