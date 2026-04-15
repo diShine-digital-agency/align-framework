@@ -24,13 +24,16 @@
 </div>
 
 <p align="center">
-  <img src="assets/images/align_05_measurement_rollout.webp" alt="ALIGN measurement rollout" width="49%">
-  <img src="assets/images/align_01_hero_overview.webp" alt="ALIGN hero overview" width="49%">
+  <img src="assets/images/align_05_measurement_rollout.webp" alt="ALIGN measurement rollout" width="100%">
 </p>
 
 We first introduced the ALIGN framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public — not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
 
 While our internal workflows have evolved into more specialized techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with experience in strategic communication and marketing performance.
+
+<p align="center">
+  <img src="assets/images/align_01_hero_overview.webp" alt="ALIGN hero overview" width="100%">
+</p>
 
 > **New to strategic storytelling?** Check the [glossary](GLOSSARY.md) for definitions of key terms used throughout this repository.
 
