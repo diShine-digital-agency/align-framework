@@ -1,4 +1,15 @@
-# ALIGN — Strategic Storytelling Framework
+# 🌟 ALIGN Storytelling Framework: driving B2B/B2C growth through narrative architecture
+
+<div align="center">
+  
+[![diShine Logo](https://dishine.it/favicon.ico)](https://dishine.it/)
+
+***Transform. Automate. Shine!***
+
+[![Website](https://img.shields.io/badge/Website-dishine.it-blue)](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-diShine-blue)](https://linkedin.com/company/100682596)
+[![Location](https://img.shields.io/badge/Location-Milan%2C%20Italy-green)]()
+[![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](LICENSE)
 
 <p align="center">
   <img src="assets/images/align_03_blueprint_worksession.webp" alt="ALIGN blueprint worksession" width="100%">
@@ -6,9 +17,11 @@
 
 > "Facts tell, stories sell — but most companies still lead with features instead of narratives."
 
-The ALIGN framework is an open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.
+*The ALIGN framework is an open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.*
 
-**Version:** 1.2.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+**Version:** 1.2.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it). Read more on the [diShine blog](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/).
+
+</div>
 
 <p align="center">
   <img src="assets/images/align_05_measurement_rollout.webp" alt="ALIGN measurement rollout" width="49%">
@@ -20,10 +33,6 @@ We first introduced the ALIGN framework through [our research on strategic story
 While our internal workflows have evolved into more specialized techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with experience in strategic communication and marketing performance.
 
 > **New to strategic storytelling?** Check the [glossary](GLOSSARY.md) for definitions of key terms used throughout this repository.
-
-<p align="center">
-  <img src="assets/images/align_04_integrate_selection.webp" alt="ALIGN webapp" width="60%">
-</p>
 
 ---
 
