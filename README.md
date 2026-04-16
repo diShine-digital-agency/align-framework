@@ -27,7 +27,7 @@
   <img src="assets/images/align_05_measurement_rollout.webp" alt="ALIGN measurement rollout" width="60%">
 </p>
 
-We first introduced the ALIGN framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public — not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
+We first introduced the ALIGN framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public, not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
 
 While our internal workflows have evolved into more specialized techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with experience in strategic communication and marketing performance.
 
@@ -41,7 +41,7 @@ While our internal workflows have evolved into more specialized techniques, the 
 
 ## Why this framework exists
 
-Despite mountains of evidence showing storytelling's effectiveness, most B2B companies are stuck drowning prospects in feature lists and tech specs. The problem is not a lack of content — it is a lack of narrative architecture.
+Despite mountains of evidence showing storytelling's effectiveness, most B2B companies are stuck drowning prospects in feature lists and tech specs. The problem is not a lack of content, it is a lack of narrative architecture.
 
 When storytelling is not directly linked to business strategy, it becomes a creative exercise rather than a strategic asset. According to McKinsey, companies that align their narrative architecture with strategic priorities achieve **18% higher revenue growth** than those with disconnected approaches. Furthermore, a 2023 Forrester study found that only **23% of B2B marketers** can effectively measure the impact of their narrative approach on sales performance.
 
@@ -71,15 +71,15 @@ The framework consists of five interconnected phases that guide organizations fr
 
 ### A — Assess: narrative ecosystem mapping
 
-Map narrative gaps across all digital touchpoints. Identify story fragmentation, measure emotional impact, and evaluate competitive differentiation — establishing your baseline for strategic enhancement. This phase also includes customer validation: interviewing recent wins and losses to verify that your internal narrative matches external market reality.
+Map narrative gaps across all digital touchpoints. Identify story fragmentation, measure emotional impact, and evaluate competitive differentiation, establishing your baseline for strategic enhancement. This phase also includes customer validation: interviewing recent wins and losses to verify that your internal narrative matches external market reality.
 
 **Output:** A **Narrative Coherence Score™ (0–100)** that quantifies the alignment between your current storytelling and ideal state, validated against real customer interviews.
 
 **Tools:**
-- [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md) — the scoring template.
-- [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md) — 20 customer validation questions.
-- [Technical Analysis](guides/narrative-audit-technical-analysis.md) — the psychological principles behind each interview question.
-- [ALIGN Navigator](tools/align-navigator.html) — interactive version with live scoring.
+- [Narrative Coherence Scorecard](templates/01-assess-narrative-scorecard.md): the scoring template.
+- [Narrative Audit Interview Guide](templates/narrative-audit-interview-guide.md): 20 customer validation questions.
+- [Technical Analysis](guides/narrative-audit-technical-analysis.md): the psychological principles behind each interview question.
+- [ALIGN Navigator](tools/align-navigator.html): interactive version with live scoring.
 
 ---
 
@@ -87,11 +87,11 @@ Map narrative gaps across all digital touchpoints. Identify story fragmentation,
 
 Align business strategy with storytelling architecture. Connect strategic priorities to narrative elements, ensuring every story component serves your core business objectives and customer needs.
 
-**Output:** A **Strategic Narrative Blueprint™** — the foundational document that dictates *what* you say, *why* you say it, and *how* it positions you in the market.
+**Output:** A **Strategic Narrative Blueprint™**, the foundational document that dictates *what* you say, *why* you say it, and *how* it positions you in the market.
 
 **Tools:**
-- [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md) — the blueprint template.
-- [ALIGN Navigator](tools/align-navigator.html) — interactive blueprint worksheet.
+- [Strategic Narrative Blueprint](templates/02-link-narrative-blueprint.md): the blueprint template.
+- [ALIGN Navigator](tools/align-navigator.html): interactive blueprint worksheet.
 
 ---
 
@@ -104,10 +104,10 @@ Select and customize the optimal combination of storytelling frameworks based on
 ![Narrative Architecture](assets/narrative-architecture.png)
 
 **Tools:**
-- [Framework Selection Workbook](templates/03-integrate-framework-selection.md) — scoring matrix and element mapping.
-- [Framework Comparison Matrix](guides/framework-comparison-matrix.md) — detailed comparison of five B2B storytelling frameworks.
-- [Technical Analysis](guides/narrative-audit-technical-analysis.md) — the psychological principles (Status Quo Bias, Loss Aversion, Anchoring, Curse of Knowledge, Peak-End Rule) behind each of the 20 interview questions.
-- [ALIGN Navigator](tools/align-navigator.html) — interactive framework diagnostic with automatic recommendation.
+- [Framework Selection Workbook](templates/03-integrate-framework-selection.md): scoring matrix and element mapping.
+- [Framework Comparison Matrix](guides/framework-comparison-matrix.md): detailed comparison of five B2B storytelling frameworks.
+- [Technical Analysis](guides/narrative-audit-technical-analysis.md): the psychological principles (Status Quo Bias, Loss Aversion, Anchoring, Curse of Knowledge, Peak-End Rule) behind each of the 20 interview questions.
+- [ALIGN Navigator](tools/align-navigator.html): interactive framework diagnostic with automatic recommendation.
 
 ---
 
@@ -118,8 +118,8 @@ Produce the strategic content assets needed to implement your narrative across d
 **Output:** A **Content Narrative Matrix** mapping messages to channels and journey stages.
 
 **Tools:**
-- [Content Narrative Matrix](templates/04-generate-content-matrix.md) — the planning template.
-- [ALIGN Navigator](tools/align-navigator.html) — interactive content matrix planner.
+- [Content Narrative Matrix](templates/04-generate-content-matrix.md): the planning template.
+- [ALIGN Navigator](tools/align-navigator.html): interactive content matrix planner.
 
 ---
 
@@ -130,14 +130,14 @@ Roll out your strategic narrative across channels, align teams, track performanc
 **Output:** A live **Narrative KPI Dashboard** connecting storytelling metrics to revenue outcomes.
 
 **Tools:**
-- [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md) — the measurement template.
-- [ALIGN Navigator](tools/align-navigator.html) — interactive KPI dashboard setup.
+- [Narrative KPI Dashboard](templates/05-navigate-measurement-dashboard.md): the measurement template.
+- [ALIGN Navigator](tools/align-navigator.html): interactive KPI dashboard setup.
 
 ---
 
 ## Repository structure
 
-> **New to the framework?** Start with the **[step-by-step user guide](guides/how-to-use-this-framework.md)** — it explains what to do, who should own it, and why it matters at each phase.
+> **New to the framework?** Start with the **[step-by-step user guide](guides/how-to-use-this-framework.md)**, it explains what to do, who should own it, and why it matters at each phase.
 
 ```
 align-framework/
@@ -181,7 +181,7 @@ align-framework/
 
 Strategic storytelling is not just marketing theory; it is rooted in neuroscience. When the brain processes conventional feature-benefit messaging, activity remains confined to language processing regions, creating purely analytical understanding without meaningful emotional engagement.
 
-Narrative processing, however, triggers "neural coupling" — synchronizing the listener's brain with the speaker's, as documented by Princeton neuroscientist Uri Hasson in his 2010 study in *Proceedings of the National Academy of Sciences*. B2B decision-makers demonstrate **63% greater retention** of value propositions when presented through strategic narratives, and a **38% higher likelihood** of advocating for solutions presented through narrative frameworks.
+Narrative processing, however, triggers "neural coupling",  synchronizing the listener's brain with the speaker's, as documented by Princeton neuroscientist Uri Hasson in his 2010 study in *Proceedings of the National Academy of Sciences*. B2B decision-makers demonstrate **63% greater retention** of value propositions when presented through strategic narratives, and a **38% higher likelihood** of advocating for solutions presented through narrative frameworks.
 
 The Hero's Journey B2B adaptation:
 
