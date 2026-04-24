@@ -19,7 +19,9 @@
 
 *The ALIGN framework is an open-source methodology for diagnosing narrative disconnects and implementing strategic storytelling across B2B digital ecosystems. It bridges the gap between high-level brand identity and measurable revenue growth by treating storytelling as a core business capability, not a marketing tactic.*
 
-**Version:** 1.2.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it). Read more on the [diShine blog](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/).
+**Version:** 1.2.0 | **License:** MIT | **Created by:** [diShine Digital Agency](https://dishine.it)
+
+> **About the linked article:** The [diShine blog article on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/) is a broad piece on narrative strategy, written before ALIGN was formalised as a framework. It covers the underlying principles and references ALIGN, but it is not a substitute for this repository. The full methodology, templates, tools, and documentation all live here on GitHub.
 
 </div>
 
@@ -27,7 +29,7 @@
   <img src="assets/images/align_05_measurement_rollout.webp" alt="ALIGN measurement rollout" width="60%">
 </p>
 
-We first introduced the ALIGN framework through [our research on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe that effective methodologies should be public, not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
+The concepts behind ALIGN were first explored publicly in [our article on strategic storytelling](https://dishine.it/blog/strategic-storytelling-to-improve-brand-identity-and-get-revenue-growth/). We believe effective methodologies should be public, not just because "sharing is caring," but because a framework is only as effective as the expertise behind it. Knowledge is a map, but experience is the compass.
 
 While our internal workflows have evolved into more specialized techniques, the core ALIGN methodology remains a high-impact asset. We release this part of our framework to help others bridge the narrative gap, though we advise that these tools be approached by those with experience in strategic communication and marketing performance.
 
@@ -181,7 +183,7 @@ align-framework/
 
 Strategic storytelling is not just marketing theory; it is rooted in neuroscience. When the brain processes conventional feature-benefit messaging, activity remains confined to language processing regions, creating purely analytical understanding without meaningful emotional engagement.
 
-Narrative processing, however, triggers "neural coupling",  synchronizing the listener's brain with the speaker's, as documented by Princeton neuroscientist Uri Hasson in his 2010 study in *Proceedings of the National Academy of Sciences*. B2B decision-makers demonstrate **63% greater retention** of value propositions when presented through strategic narratives, and a **38% higher likelihood** of advocating for solutions presented through narrative frameworks.
+Narrative processing, however, triggers "neural coupling", synchronizing the listener's brain with the speaker's, as documented by Princeton neuroscientist Uri Hasson in his 2010 study in *Proceedings of the National Academy of Sciences*. B2B decision-makers demonstrate **63% greater retention** of value propositions when presented through strategic narratives, and a **38% higher likelihood** of advocating for solutions presented through narrative frameworks.
 
 The Hero's Journey B2B adaptation:
 
